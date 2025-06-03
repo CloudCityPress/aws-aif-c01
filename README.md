@@ -32,9 +32,9 @@ This study guide is an independent publication and is not affiliated with, endor
 
 The information in this guide is provided "as is" without warranty of any kind. Always refer to official AWS documentation for the most current and authoritative information.
 
-**Exam Information**: This guide is designed for the AWS Solutions Architect Associate (SAA-C03) exam. Please verify current exam objectives on the official AWS certification website.
+**Exam Information**: This guide is designed for the AWS Certified AI Practitioner (AIF-C01) exam. Please verify current exam objectives on the official AWS certification website.
 
 ---
 
-**Last Updated**: June 2025 | **Version**: 2025.1 | **Exam**: SAA-C03  
+**Last Updated**: June 2025 | **Version**: 2025.1 | **Exam**: AIF-C01  
 **Copyright** © 2025 Cloud City Press LLC. All rights reserved.
