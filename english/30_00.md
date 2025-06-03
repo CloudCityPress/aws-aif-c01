@@ -1,0 +1,22 @@
+# Chapter 3. Applications of Foundation Models
+
+Foundation models represent a transformative leap in artificial intelligence, delivering exceptional capabilities across language processing, image generation, and complex reasoning tasks. These powerful AI systems serve as the backbone for numerous business applications that can drive innovation and competitive advantage in today's market.
+
+For business professionals, practical knowledge of foundation model applications directly translates to strategic advantage. These models, trained on vast datasets, can be leveraged to automate processes, generate creative content, enhance customer experiences, and extract insights from complex information. Understanding how to effectively implement these technologies is becoming an essential business skill.
+
+Amazon Bedrock[^501] provides access to a variety of foundation models that enable organizations to build sophisticated AI-powered applications without managing complex infrastructure. These models vary in their strengths, cost profiles, and latency characteristics, making selection a critical business decision. Choosing the right model involves balancing performance requirements against resource constraints while considering specific use case needs.
+
+When implementing foundation models, several design factors require careful consideration. Inference parameters significantly impact response quality and characteristics. Techniques like **Retrieval Augmented Generation (RAG)**[^502] enhance model outputs by incorporating information from external knowledge bases, addressing limitations in the model's training data. Each customization approach presents different cost implications that must be evaluated against business requirements.
+
+**Prompt engineering** stands as a fundamental skill for effective foundation model usage. This discipline involves crafting input instructions that guide models toward producing desired outputs. Well-designed prompts dramatically improve response quality, while poorly constructed ones may yield inconsistent or unhelpful results. The chapter explores various prompting techniques, their relative advantages, and strategies for mitigating potential risks.
+
+Organizations seeking to tailor foundation models for specific domains can employ various training approaches. **Fine-tuning** adapts pre-trained models to specialized tasks or industries, while **instruction tuning** helps models better understand and follow specific directions. **Transfer learning**[^503] leverages knowledge acquired on one task to improve performance on related tasks. Each method requires appropriate data preparation and governance practices to ensure quality outcomes.
+
+Evaluating foundation model performance involves multiple dimensions beyond simple accuracy metrics. Business professionals must determine whether models meet specific objectives, maintain consistency, operate within acceptable latency parameters, and provide value relative to their cost. This chapter presents frameworks for comprehensive performance assessment that support informed decision-making about AI investments.
+
+By mastering the practical applications of foundation models outlined in this chapter, business professionals can effectively harness these powerful AI capabilities. From selecting appropriate models and engineering effective prompts to customizing models for specific needs and rigorously evaluating their performance, readers will develop the skills necessary to implement AI solutions that deliver meaningful business value. This knowledge bridges theoretical understanding with practical implementation, empowering organizations to address complex challenges through advanced AI technologies.
+
+[^500]: Foundation Models: A New Era in AI. URL: <https://hai.stanford.edu/news/what-foundation-model-explainer-non-experts>
+[^501]: Amazon Bedrock - Foundation Models. URL: <https://aws.amazon.com/bedrock/>
+[^502]: Retrieval Augmented Generation (RAG) with Large Language Models. URL: <https://aws.amazon.com/blogs/machine-learning/question-answering-using-retrieval-augmented-generation-with-foundation-models-in-amazon-sagemaker-jumpstart/>
+[^503]: Transfer Learning for Financial Language Models. URL: <https://aws.amazon.com/blogs/machine-learning/use-pre-trained-financial-language-models-for-transfer-learning-in-amazon-sagemaker-jumpstart/>
