@@ -9,12 +9,13 @@
 This comprehensive study guide covers everything you need to pass the AWS Certified AI Practitioner (AIF-C01) certification exam. Written by industry experts and continuously updated to reflect the latest AWS services and best practices.
 
 **What's Covered:**
-- Core AWS services and architecture patterns
-- Security and compliance frameworks
-- Cost optimization strategies
-- Real-world scenarios and case studies
-- Practice questions with detailed explanations
-- Hands-on labs and exercises
+- AI/ML fundamentals and AWS AI services overview
+- Amazon SageMaker and machine learning workflows
+- Computer vision and natural language processing services
+- Generative AI and foundation models
+- AI/ML security, compliance, and responsible AI practices
+- AI/ML cost optimization and performance monitoring
+- Real-world AI implementation scenarios and best practices
 
 ## ⭐ Show Your Support
 
