@@ -35,7 +35,7 @@ This English version is provided free for personal use.
 ## 💼 Commercial Use & Enterprise Licenses
 
 **Contact us for commercial licensing:**
-- 📧 Email: [vprovorov@cloudcitypress.com](mailto:vprovorov@cloudcitypress.com)
+- 📧 Email: [vprovorov@cloudcitypress.com](mailto:info@cloudcitypress.com)
 - 🌐 Website: [cloudcitypress.com/](https://cloudcitypress.com)
 
 ---
@@ -71,7 +71,7 @@ You may not distribute modified versions of this work, including:
 If this free content has helped you in your career:
 
 - ⭐ **Star this repository** to help others discover it
-- 🛒 **Purchase printed books, ebooks, and audiobooks** at Amazon: https://a.co/d/1aSkk1N
+- 🛒 **Purchase printed books, ebooks, and audiobooks** at [Amazon](https://a.co/d/1aSkk1N)
 - 📝 **Leave a review** on our published books
 - 🔗 **Share with colleagues** who might benefit
 - 📧 **Send feedback** to help us improve future content
@@ -82,7 +82,7 @@ If this free content has helped you in your career:
 
 **Cloud City Press LLC**  
 
-- **General inquiries:** [info@cloudcitypress.com](mailto:vprovorov@cloudcitypress.com)
+- **General inquiries:** [info@cloudcitypress.com](mailto:info@cloudcitypress.com)
 - **Website:** [https://cloudcitypress.com](https://cloudcitypress.com)
 
 ---
