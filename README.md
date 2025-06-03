@@ -6,7 +6,7 @@
 
 ## 📚 About This Book
 
-This comprehensive study guide covers everything you need to pass the AWS Certified AI Practitioner (AIF-C01) certification exam. Written by industry experts and continuously updated to reflect the latest AWS services and best practices.
+This comprehensive study guide covers everything you need to pass the AWS Certified AI Practitioner (AIF-C01) certification exam. Written by industry experts and continuously updated to reflect the latest AWS services and best practices. 
 
 **What's Covered:**
 - AI/ML fundamentals and AWS AI services overview
@@ -23,7 +23,7 @@ This comprehensive study guide covers everything you need to pass the AWS Certif
 If this free content has helped you in your AWS certification journey:
 
 - ⭐ **Star this repository** to help others discover it
-- 🛒 **Purchase a translation** in your preferred language
+- 🛒 **Purchase a paperback, Kindle, or Audible** book version on [Amazon](https://a.co/d/4FJdTNT)
 - 📝 **Leave a review** on our Amazon listings
 - 🔗 **Share with colleagues** preparing for AWS certifications
 - 💡 **Contribute** by reporting errors or suggesting improvements
