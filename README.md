@@ -16,6 +16,7 @@ This comprehensive study guide covers everything you need to pass the AWS Certif
 - AI/ML security, compliance, and responsible AI practices
 - AI/ML cost optimization and performance monitoring
 - Real-world AI implementation scenarios and best practices
+- Practice questions and explanations
 
 ## ⭐ Show Your Support
 
