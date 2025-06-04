@@ -167,6 +167,45 @@ A healthcare technology provider utilized Amazon Q Developer to ensure HIPAA com
 - Consistent application of security patterns across all services
 - Faster onboarding of new developers to compliance requirements
 
+## Case Studies
+
+### National Australia Bank: Transforming Developer Experience
+
+National Australia Bank (NAB), one of Australia's largest financial institutions with over 10 million customers, successfully implemented Amazon Q Developer to transform their software development practices. With more than 3,000 developers across Australia, India, and Vietnam managing millions of lines of code, NAB faced challenges in maintaining security, compliance, and quality standards while accelerating development.
+
+The results were remarkable:
+- **50% code acceptance rate** from Amazon Q Developer suggestions
+- **40% of production code** now comes from AI-generated suggestions
+- **18% overall productivity increase** across development teams
+- Transformed dozens of applications from Java 8 to Java 17 in hours instead of weeks
+
+NAB's Chief Technology Officer, Steve Day, stated: "Amazon Q Developer is more than just a single product; it has completely changed the way we develop code. It was incredible to see dozens of applications uplifted in a couple of hours instead of weeks."[^6]
+
+### BT Group: Enterprise-Scale Adoption
+
+BT Group, the UK telecommunications giant, rolled out Amazon Q Developer to 1,200 developers after successful initial trials. The company integrated the AI-powered assistant into their development workflow to address the challenge of maintaining consistent code quality across multiple projects.[^8]
+
+Key achievements include:
+- **37% acceptance rate** of code suggestions by software engineers
+- **200,000 lines of code** written with AI assistance
+- **12% automation** of tedious and repetitive coding tasks
+- Significant improvement in code quality metrics
+
+The tool proved particularly effective with languages including Java, JavaScript, TypeScript, and Python, with developers reporting increased productivity and more time for innovation rather than routine tasks.
+
+### Healthcare Technology: Ensuring Compliance at Speed
+
+Netsmart, a leading technology provider for community-based care, implemented Amazon Q Developer to meet the exponentially growing demand for healthcare technology while maintaining strict compliance standards.[^9]
+
+Their implementation delivered:
+- **35% code suggestion acceptance rate**
+- Accelerated development cycles for healthcare applications
+- Efficient generation of HIPAA-compliant code patterns
+- Significant reduction in manual effort for documentation
+- Faster implementation of new features while maintaining security standards
+
+Paul Snider, VP of Engineering at Netsmart, noted: "Amazon Q Developer can transform the way our engineering team approaches research, design, and coding... allowing our engineers to efficiently generate high-quality code and documentation."
+
 ## Summary
 
 Amazon Q Developer represents a fundamental shift in how software is created, maintained, and optimized. By combining advanced AI capabilities with deep AWS expertise, it enables developers to focus on innovation rather than repetitive tasks. The system's ability to generate accurate code, transform legacy applications, ensure security, and provide expert guidance makes it an essential tool for modern development teams.
@@ -223,7 +262,7 @@ For organizations embarking on their AI-assisted development journey, Amazon Q D
 
 **Correct answer: B. Achieving industry-leading code suggestion acceptance rates**
 
-   Explanation: Amazon Q Developer's most significant advantage is its industry-leading code suggestion acceptance rates, with organizations like BT Group reporting 37% and National Australia Bank achieving 50% acceptance rates. This high acceptance rate directly translates to improved developer productivity and faster development cycles. Option A is incorrect because human code review remains essential for quality assurance. Option C is incorrect as Amazon Q Developer focuses on code generation and transformation, not deployment. Option D is incorrect because Amazon Q Developer is designed to augment, not replace, human developers.[^1]
+   Explanation: Amazon Q Developer's most significant advantage is its industry-leading code suggestion acceptance rates, with organizations like BT Group reporting 37% and National Australia Bank achieving 50% acceptance rates. This high acceptance rate directly translates to improved developer productivity and faster development cycles. Option A is incorrect because human code review remains essential for quality assurance. Option C is incorrect as Amazon Q Developer focuses on code generation and transformation, not deployment. Option D is incorrect because Amazon Q Developer is designed to augment, not replace, human developers.
 
 **2. An organization wants to modernize their Java 8 applications to Java 17. Which Amazon Q Developer feature would be most appropriate for this task?**
 
@@ -234,7 +273,7 @@ For organizations embarking on their AI-assisted development journey, Amazon Q D
 
 **Correct answer: C. Code transformation capability**
 
-   Explanation: Amazon Q Developer's code transformation capability is specifically designed for upgrading applications between language versions. As demonstrated by Amazon's internal team that upgraded over 1,000 applications from Java 8 to Java 17 in just two days, this feature automates the complex process of version migration. While the other features are valuable, they don't directly address the version upgrade requirement. The transformation capability analyzes existing code, understands dependencies, and generates upgraded code that maintains functionality while incorporating modern language features.[^2]
+   Explanation: Amazon Q Developer's code transformation capability is specifically designed for upgrading applications between language versions. As demonstrated by Amazon's internal team that upgraded over 1,000 applications from Java 8 to Java 17 in just two days, this feature automates the complex process of version migration. While the other features are valuable, they don't directly address the version upgrade requirement. The transformation capability analyzes existing code, understands dependencies, and generates upgraded code that maintains functionality while incorporating modern language features.
 
 **3. A financial services company is concerned about using AI-powered development tools due to data security requirements. Which aspect of Amazon Q Developer best addresses their concerns?**
 
@@ -245,7 +284,7 @@ For organizations embarking on their AI-assisted development journey, Amazon Q D
 
 **Correct answer: C. Data isolation and customer content not being used for model training**
 
-   Explanation: Amazon Q Developer Pro provides enterprise-grade security with complete data isolation, ensuring that customer content is not used for service improvement or model training for other customers. This is crucial for financial services companies that must maintain strict data confidentiality. The service implements comprehensive security measures including encryption, access controls, and compliance with regulatory requirements. Options A, B, and D are not primary security features of Amazon Q Developer.[^3]
+   Explanation: Amazon Q Developer Pro provides enterprise-grade security with complete data isolation, ensuring that customer content is not used for service improvement or model training for other customers. This is crucial for financial services companies that must maintain strict data confidentiality. The service implements comprehensive security measures including encryption, access controls, and compliance with regulatory requirements. Options A, B, and D are not primary security features of Amazon Q Developer.
 
 **4. A developer wants Amazon Q Developer to help implement a complete user authentication feature. Which capability enables this level of autonomous development?**
 
@@ -256,7 +295,7 @@ For organizations embarking on their AI-assisted development journey, Amazon Q D
 
 **Correct answer: B. Amazon Q Developer Agents**
 
-   Explanation: Amazon Q Developer Agents are specifically designed to autonomously perform complex, multi-step tasks like implementing entire features. When a developer requests a complete feature implementation, the agent analyzes the existing codebase, creates an implementation plan, and generates all necessary code, tests, and documentation. This capability has achieved top scores on the SWE-Bench Leaderboard, demonstrating its effectiveness in real-world feature implementation. Inline code completion (A) is for smaller suggestions, while security scanning (C) and AWS integration (D) serve different purposes.[^4]
+   Explanation: Amazon Q Developer Agents are specifically designed to autonomously perform complex, multi-step tasks like implementing entire features. When a developer requests a complete feature implementation, the agent analyzes the existing codebase, creates an implementation plan, and generates all necessary code, tests, and documentation. This capability has achieved top scores on the SWE-Bench Leaderboard, demonstrating its effectiveness in real-world feature implementation. Inline code completion (A) is for smaller suggestions, while security scanning (C) and AWS integration (D) serve different purposes.
 
 **5. An enterprise is evaluating the ROI of Amazon Q Developer implementation. Which metric would best demonstrate the tool's impact on development efficiency?**
 
@@ -267,10 +306,14 @@ For organizations embarking on their AI-assisted development journey, Amazon Q D
 
 **Correct answer: B. Code suggestion acceptance rate and time saved on routine tasks**
 
-   Explanation: Code suggestion acceptance rate combined with time saved on routine tasks provides the most comprehensive measure of Amazon Q Developer's impact on development efficiency. These metrics directly correlate with productivity improvements and can be translated into tangible business value. High acceptance rates indicate that the AI-generated suggestions are relevant and useful, while time saved quantifies the efficiency gains. Simply counting lines of code (A) or users (C) doesn't reflect quality or effectiveness, and documentation generation (D) is just one aspect of the tool's capabilities.[^5]
+   Explanation: Code suggestion acceptance rate combined with time saved on routine tasks provides the most comprehensive measure of Amazon Q Developer's impact on development efficiency. These metrics directly correlate with productivity improvements and can be translated into tangible business value. High acceptance rates indicate that the AI-generated suggestions are relevant and useful, while time saved quantifies the efficiency gains. Simply counting lines of code (A) or users (C) doesn't reflect quality or effectiveness, and documentation generation (D) is just one aspect of the tool's capabilities.
 
 [^1]: Amazon Q Developer Features - Code Suggestions and Acceptance Rates. URL: <https://aws.amazon.com/q/developer/features/>
 [^2]: AWS Announces General Availability of Amazon Q Developer - Code Transformation. URL: <https://press.aboutamazon.com/2024/4/aws-announces-general-availability-of-amazon-q-the-most-capable-generative-ai-powered-assistant-for-accelerating-software-development-and-leveraging-companies-internal-data>
 [^3]: Amazon Q Developer - Security and Privacy. URL: <https://aws.amazon.com/q/developer/>
 [^4]: Amazon Q Developer - Autonomous Agents and Feature Implementation. URL: <https://docs.aws.amazon.com/prescriptive-guidance/latest/best-practices-code-generation/advanced-capabilities.html>
-[^5]: Amazon Q Developer - Business Value and Metrics. URL: <https://www.aboutamazon.com/news/aws/amazon-q-generative-ai-assistant-aws> 
+[^5]: Amazon Q Developer - Business Value and Metrics. URL: <https://www.aboutamazon.com/news/aws/amazon-q-generative-ai-assistant-aws>
+[^6]: National Australia Bank Case Study - Transforming the Developer Experience with Amazon Q. URL: <https://aws.amazon.com/solutions/case-studies/generative-ai-national-australia-bank/>
+[^7]: National Australia Bank on AWS - Customer Success Story. URL: <https://aws.amazon.com/solutions/case-studies/innovators/national-australia-bank/>
+[^8]: BT Group Amazon Q Developer Case Study. URL: <https://www.computerweekly.com/news/366588627/Case-study-BT-rolls-out-Amazons-generative-AI-developer-tool-to-more-coders>
+[^9]: Amazon Q Developer Customers - Netsmart Testimonial. URL: <https://aws.amazon.com/q/developer/customers/> 
