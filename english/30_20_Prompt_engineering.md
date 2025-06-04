@@ -28,12 +28,6 @@ flowchart TD
     C -->|Negative Prompt| E[Exclude Content]
     D --> F[Final Output]
     E --> F
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#ffe6e6
-    style F fill:#f2e6ff
 ```
 
 *Figure 3.2.1: Prompt Engineering Workflow. This diagram illustrates the process of prompt engineering, showing how context, instructions, and both positive and negative prompts interact with the AI model to produce the final output.*
@@ -144,12 +138,7 @@ flowchart TD
     C -->|Specificity| D[Focused Prompt]
     D -->|User Feedback| E[Optimized Prompt]
     E -->|Continuous Refinement| F[Evolving Prompt]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
-    style F fill:#fffae6
+
 ```
 
 *Figure 3.2.3: Prompt Refinement Process. This diagram illustrates the iterative process of refining prompts based on best practices and feedback, leading to continuously improving AI interactions.*
@@ -231,24 +220,7 @@ flowchart LR
     H --> P[Unfair Decisions]
     I --> Q[Operational Confusion]
     J --> R[Compliance Issues]
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#ffe6e6
-    style D fill:#ffe6e6
-    style E fill:#ffe6e6
-    style F fill:#ffe6e6
-    style G fill:#ffe6e6
-    style H fill:#ffe6e6
-    style I fill:#ffe6e6
-    style J fill:#ffe6e6
-    style K fill:#f2e6ff
-    style L fill:#f2e6ff
-    style M fill:#f2e6ff
-    style N fill:#f2e6ff
-    style O fill:#f2e6ff
-    style P fill:#f2e6ff
-    style Q fill:#f2e6ff
-    style R fill:#f2e6ff
+
 ```
 
 *Figure 3.2.4: Risks and Impacts of Prompt Engineering. This flowchart illustrates the various risks associated with prompt engineering and their potential impacts on business operations.*

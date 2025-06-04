@@ -55,18 +55,7 @@ flowchart LR
     D --> J[EU AI Act]
     D --> K[US Algorithmic Accountability Act]
     D --> L[NYC AI Hiring Law]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#fff5e6
-    style F fill:#fff5e6
-    style G fill:#fff5e6
-    style H fill:#fff5e6
-    style I fill:#fff5e6
-    style J fill:#fff5e6
-    style K fill:#fff5e6
-    style L fill:#fff5e6
+
 ```
 
 *Figure 5.2.1: AI Regulatory Landscape. This diagram illustrates the key components of the AI regulatory landscape, including international standards, audit reports, and legal requirements. It shows how these elements are interconnected and form a comprehensive framework for AI governance and compliance.*
@@ -291,31 +280,6 @@ flowchart LR
     G --> W[AI Ethics Training]
     G --> X[Compliance Workshops]
     G --> Y[Technical Skills Development]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
-    style F fill:#f0f5e6
-    style G fill:#f0f5e6
-    style H fill:#fff5e6
-    style I fill:#fff5e6
-    style J fill:#fff5e6
-    style K fill:#fff5e6
-    style L fill:#fff5e6
-    style M fill:#fff5e6
-    style N fill:#fff5e6
-    style O fill:#fff5e6
-    style P fill:#fff5e6
-    style Q fill:#fff5e6
-    style R fill:#fff5e6
-    style S fill:#fff5e6
-    style T fill:#fff5e6
-    style U fill:#fff5e6
-    style V fill:#fff5e6
-    style W fill:#fff5e6
-    style X fill:#fff5e6
-    style Y fill:#fff5e6
 ```
 
 *Figure 5.2.4: AI Governance Processes in Organization. This diagram illustrates the key components of an AI governance process. It shows how policies, review processes, governance frameworks, transparency standards, and team training requirements are interconnected to form a comprehensive governance strategy.*

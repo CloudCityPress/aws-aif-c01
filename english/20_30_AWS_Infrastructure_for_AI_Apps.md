@@ -70,15 +70,6 @@ flowchart TD
     C -->|Prototypes| G[Business Users]
     D -->|Deployment| H[Production AI Systems]
     E -->|Support| I[AWS Customers & Employees]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
-    style F fill:#fffae6
-    style G fill:#fffae6
-    style H fill:#fffae6
-    style I fill:#fffae6
 ```
 
 *Figure 2.3.1: AWS Generative AI Services Ecosystem. This diagram illustrates the relationships between key AWS services for generative AI, showing how they cater to different stages of AI development and user needs.*
@@ -196,12 +187,7 @@ flowchart LR
     E -->|Continuous Checks| E1[Model Monitoring]
     E -->|Transparency| E2[Explainability]
     E -->|Isolated Testing| E3[Safe Deployment]
-    
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
+
 ```
 
 *Figure 2.3.3: AWS Infrastructure Benefits for Generative AI. This flowchart illustrates the key infrastructure benefits provided by AWS for generative AI applications, highlighting the interconnected nature of security, compliance, responsibility, and safety features.*

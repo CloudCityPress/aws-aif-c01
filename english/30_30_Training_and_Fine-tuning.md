@@ -15,10 +15,7 @@ flowchart TD
     A[Raw Data Collection] -->|Massive Datasets| B[Data Preprocessing]
     B --> C[Pre-training]
     C --> D[Base Foundation Model]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
+
 ```
 
 *Figure 3.3.1: Pre-training Process for Foundation Models*
@@ -71,11 +68,7 @@ flowchart TD
     B --> C[Fine-tuning Process]
     C --> D[Instruction-tuned Model]
     D --> E[Improved Task Performance]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
+
 ```
 
 *Figure 3.3.2: Instruction Tuning Process*
@@ -169,12 +162,7 @@ flowchart TD
     C --> D[Data Quality Assurance]
     D --> E[Compliance Monitoring]
     E --> F[Ethical Use Guidelines]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
-    style F fill:#fffae6
+
 ```
 
 *Figure 3.3.3: Data Governance Framework for AI Model Fine-Tuning*

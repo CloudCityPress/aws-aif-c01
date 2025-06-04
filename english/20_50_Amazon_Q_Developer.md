@@ -52,11 +52,7 @@ flowchart TD
     
     E --> M[Vulnerability Detection]
     E --> N[Automated Remediation]
-    
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C,D,E,F,G,H fill:#fff5e6
-    style I,J,K,L,M,N fill:#ffe6e6
+
 ```
 
 *Figure 20.50.1: Amazon Q Developer Capability Architecture. This diagram illustrates how Amazon Q Developer processes developer intent through various specialized capabilities, each designed to address specific aspects of the development lifecycle.*

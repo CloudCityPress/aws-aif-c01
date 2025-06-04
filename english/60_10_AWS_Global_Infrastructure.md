@@ -29,17 +29,6 @@ flowchart TD
     
     D -->|Example| I[New York City Edge Location]
     D -->|Example| J[London Edge Location]
-    
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
-    style F fill:#fffae6
-    style G fill:#fffae6
-    style H fill:#fffae6
-    style I fill:#ffe6e6
-    style J fill:#ffe6e6
 ```
 
 *Figure 6.1.1. AWS Global Infrastructure Components. This diagram illustrates the hierarchical structure of AWS Global Infrastructure, showing the relationship between Regions, Availability Zones, and Edge Locations.*
@@ -112,14 +101,6 @@ flowchart TD
     H -->|Compliant data transfer| C
     H -->|Compliant data transfer| D
     
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#fff5e6
-    style F fill:#fff5e6
-    style G fill:#ffe6e6
-    style H fill:#f2e6ff
 ```
 
 *Figure 6.1.2. Global AI Application Architecture. This diagram shows how a global AI application leverages AWS's infrastructure to train models centrally and deploy them globally, while maintaining data compliance and low-latency user experiences.*
@@ -189,17 +170,7 @@ flowchart TD
     E -->|Yes| I[Finalize Region Choice]
     E -->|No| J[Reconsider Requirements]
     J --> A
-    
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#f0f5e6
-    style D fill:#fff5e6
-    style E fill:#fff5e6
-    style F fill:#f0f5e6
-    style G fill:#fff5e6
-    style H fill:#f0f5e6
-    style I fill:#ffe6e6
-    style J fill:#ffe6e6
+
 ```
 
 *Figure 6.1.3. AWS Region Selection Flowchart for AI/ML Projects. This flowchart illustrates the decision-making process for selecting an AWS Region, considering factors such as data residency, latency, service availability, and cost.*

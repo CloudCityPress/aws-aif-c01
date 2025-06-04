@@ -39,11 +39,7 @@ flowchart TD
     H -->|No| J[Use pre-trained model as-is]
     I --> K[Final Model Selection]
     J --> K
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style E fill:#fff5e6
-    style H fill:#fff5e6
-    style K fill:#f0f5e6
+
 ```
 
 *Figure 3.1.1: Model Selection Flowchart. This diagram illustrates the decision-making process for selecting an appropriate foundation model based on key criteria such as multilingual support, latency requirements, and customization needs.*
@@ -99,12 +95,7 @@ flowchart TD
     D -->|Return Data| C
     C --> E[Generation Process]
     E --> F[Enhanced Response]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#f2e6ff
-    style E fill:#f0f5e6
-    style F fill:#ffe6e6
+
 ```
 
 *Figure 3.1.3: Retrieval Augmented Generation Process. This diagram illustrates the flow of information in a RAG system, from the initial user query through the foundation model, retrieval system, and knowledge base, culminating in an enhanced response.*
@@ -208,14 +199,7 @@ flowchart TD
     D -->|No| F{External Data Needed?}
     F -->|Yes| G[RAG]
     F -->|No| H[In-context Learning]
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style D fill:#fff5e6
-    style F fill:#fff5e6
-    style C fill:#ffe6e6
-    style E fill:#f0f5e6
-    style G fill:#f2e6ff
-    style H fill:#f0f5e6
+
 ```
 
 *Figure 3.1.4: Cost-Benefit Decision Tree for Model Customization. This diagram illustrates the decision-making process for choosing a model customization approach based on cost considerations and specific needs.*

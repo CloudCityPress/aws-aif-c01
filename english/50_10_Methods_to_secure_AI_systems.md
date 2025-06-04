@@ -28,12 +28,6 @@ flowchart TD
     B -->|Assigns Role| C[AI Service]
     C -->|Accesses| D[Data Source]
     C -->|Deploys| E[Model Endpoint]
-    
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#f0f5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
 ```
 
 *Figure 5.1.1: IAM Role-based Access Control for AI Services*
@@ -66,11 +60,6 @@ flowchart TD
     A --> D[Storage]
     A --> E[Managed Database]
     A --> F[Networking]
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#fff5e6
-    style D fill:#fff5e6
-    style E fill:#fff5e6
 ```
 ```mermaid
 flowchart TD
@@ -78,11 +67,6 @@ flowchart TD
     G --> I[AI Models]
     G --> J[Access Management]
     G --> K[Application Security]    
-    style G fill:#f0f5e6    
-    style H fill:#ffe6e6
-    style I fill:#ffe6e6
-    style J fill:#ffe6e6
-    style K fill:#ffe6e6
 ```
 *Figure 5.1.2: AWS Shared Responsibility Model for AI Systems*
 
@@ -142,14 +126,7 @@ flowchart TD
     D --> E[Model Card]
     E --> F[Model Registry]
     F --> G[Model Deployment]
-    
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#f0f5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
-    style F fill:#fffae6
-    style G fill:#e6eeff
+
 ```
 
 *Figure 5.1.3: Data and Model Lineage in AI Systems*
@@ -213,14 +190,7 @@ flowchart TD
     C --> E[Data Quality Assessment]
     E --> F[Privacy Enhancement]
     F --> G[AI Model Training]
-    
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#f0f5e6
-    style D fill:#ffe6e6
-    style E fill:#fffae6
-    style F fill:#f2e6ff
-    style G fill:#e6eeff
+
 ```
 
 *Figure 5.1.4: Secure Data Engineering Flow for AI Systems*
@@ -298,14 +268,7 @@ flowchart TD
     C --> E{Output Filtering}
     E -->|Safe| F[Return Output]
     E -->|Unsafe| G[Block Output]
-    
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#f0f5e6
-    style D fill:#ffe6e6
-    style E fill:#fff5e6
-    style F fill:#e6eeff
-    style G fill:#ffe6e6
+
 ```
 
 *Figure 5.1.5: Prompt Injection Protection Flow*

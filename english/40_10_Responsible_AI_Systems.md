@@ -35,9 +35,6 @@ flowchart TD
     F --> H
     G --> H
     H -->|Leads to| I[Trustworthy AI Applications]
-    style A fill:#e6eeff
-    style H fill:#f0f5e6
-    style I fill:#fff5e6
 ```
 
 In practice, implementing these features requires a multifaceted approach. To address bias, companies might employ diverse data collection methods and use algorithmic fairness techniques. For inclusivity, they might conduct user research with various demographics and design accessible AI interfaces.
@@ -114,12 +111,6 @@ flowchart TD
     D -->|Adequate| E{Sustainability}
     E -->|Poor| C
     E -->|Good| F[Select Model]
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#ffe6e6
-    style D fill:#fff5e6
-    style E fill:#fff5e6
-    style F fill:#f0f5e6
 ```
 
 This diagram outlines a decision-making process that prioritizes both environmental impact and sustainability alongside performance when selecting an AI model.
@@ -166,9 +157,6 @@ stateDiagram-v2
     Hallucination --> ReputationalDamage
     LegalAction --> [*]
     ReputationalDamage --> [*]
-    style NormalOperation fill:#e6eeff
-    style LegalAction fill:#ffe6e6
-    style ReputationalDamage fill:#ffe6e6
 ```
 
 This state diagram shows how various risks can lead to legal action or reputational damage, emphasizing the importance of proactive risk management in generative AI deployments.
@@ -215,8 +203,6 @@ flowchart LR
     A --> G[Currency]
     A --> H[Cleanliness]
     B & C & D & E & F & G & H --> I[Responsible AI Model]
-    style A fill:#e6eeff
-    style I fill:#f0f5e6
 ```
 
 In practice, businesses can ensure dataset quality by:
@@ -256,14 +242,6 @@ flowchart TD
     D --> G[Poor Generalization]
     F --> G
     E --> H[Good Generalization]
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f0f5e6
-    style F fill:#ffe6e6
-    style G fill:#ffe6e6
-    style H fill:#f0f5e6
 ```
 
 This diagram shows how different combinations of bias and variance affect model performance and generalization ability.
@@ -296,8 +274,6 @@ Maintaining AI system integrity requires continuous monitoring throughout the mo
    - Implements human review workflows for sensitive AI predictions
    - Helps validate model outputs and identify potential biases or errors
    - Improves model accuracy through human feedback loops[^1112]
-
-
 
 In addition to these AWS-specific tools, businesses can employ other techniques to enhance the trustworthiness and truthfulness of their AI systems:
 

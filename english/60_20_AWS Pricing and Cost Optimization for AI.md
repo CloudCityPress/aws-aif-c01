@@ -24,11 +24,6 @@ flowchart TD
     B -->|Compute| C[Instance Hours]
     B -->|Storage| D[GB-months]
     B -->|Processing| E[Data Volume]
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
 ```
 
 *Figure 6.2.1: Pay-as-you-go Model for AI/ML Services. This diagram illustrates the components of the pay-as-you-go pricing model for AI/ML services on AWS, showing how costs are incurred based on compute usage, storage, and data processing volumes.*
@@ -71,15 +66,7 @@ flowchart TD
     C -->|Committed Usage| G[Predictable Workloads]
     D -->|Long-term Commitment| H[Steady-state Workloads]
     E -->|Interruptible| I[Cost-sensitive Tasks]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
-    style F fill:#fff5e6
-    style G fill:#fff5e6
-    style H fill:#fff5e6
-    style I fill:#fff5e6
+
 ```
 
 *Figure 6.2.2: AWS AI/ML Pricing Models Overview. This diagram showcases the different pricing models available for AI/ML services on AWS, highlighting their characteristics and suitable use cases.*
@@ -162,25 +149,6 @@ flowchart LR
     F --> Q[Serverless Inference]
     G --> R[SageMaker]
     G --> S[Pre-trained AI Services]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
-    style F fill:#f0f5e6
-    style G fill:#f0f5e6
-    style H fill:#fff5e6
-    style I fill:#fff5e6
-    style J fill:#fff5e6
-    style K fill:#fff5e6
-    style L fill:#fff5e6
-    style M fill:#fff5e6
-    style N fill:#fff5e6
-    style O fill:#fff5e6
-    style P fill:#fff5e6
-    style Q fill:#fff5e6
-    style R fill:#fff5e6
-    style S fill:#fff5e6
 ```
 
 *Figure 6.2.3: AI/ML Cost Optimization Strategies on AWS. This diagram illustrates various strategies for optimizing costs in AI/ML projects on AWS, showcasing the interconnected nature of different approaches and their specific implementations.*
@@ -226,20 +194,6 @@ flowchart LR
     D --> L[Team-based Tracking]
     E --> M[Future Cost Estimation]
     F --> N[Optimize Steady Workloads]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
-    style F fill:#f0f5e6
-    style G fill:#fff5e6
-    style H fill:#fff5e6
-    style I fill:#fff5e6
-    style J fill:#fff5e6
-    style K fill:#fff5e6
-    style L fill:#fff5e6
-    style M fill:#fff5e6
-    style N fill:#fff5e6
 ```
 
 *Figure 6.2.4: AWS Cost Explorer Features for AI/ML Projects. This diagram illustrates the key features of AWS Cost Explorer that are particularly useful for managing and analyzing costs in AI/ML projects on AWS.*
@@ -276,18 +230,7 @@ flowchart LR
     D --> J[Stop Non-critical Resources]
     D --> K[Apply Restrictive IAM Policies]
     E --> L[Preemptive Cost Control]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
-    style F fill:#fff5e6
-    style G fill:#fff5e6
-    style H fill:#fff5e6
-    style I fill:#fff5e6
-    style J fill:#fff5e6
-    style K fill:#fff5e6
-    style L fill:#fff5e6
+
 ```
 
 *Figure 6.2.5: AWS Budgets Features for AI/ML Cost Management. This diagram showcases the key features of AWS Budgets that are particularly useful for managing and controlling costs in AI/ML projects on AWS.*

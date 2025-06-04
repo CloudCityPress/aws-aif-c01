@@ -75,20 +75,7 @@ flowchart LR
     E -->|Optimizes| K[Efficient Resource Utilization]
     F -->|Manages| L[ML-Related Costs]
     G -->|Promotes| M[Eco-Friendly ML Practices]
-    
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
-    style F fill:#f0f5e6
-    style G fill:#f0f5e6
-    style H fill:#fff5e6
-    style I fill:#fff5e6
-    style J fill:#fff5e6
-    style K fill:#fff5e6
-    style L fill:#fff5e6
-    style M fill:#fff5e6
+
 ```
 
 *Figure 6.3.1. AWS Well-Architected Framework for AI/ML. This diagram illustrates the six pillars of the AWS Well-Architected Framework and their specific implementations in AI/ML contexts. Each pillar contributes to a well-architected AI/ML solution, addressing key aspects such as automation, security, reliability, efficiency, cost management, and sustainability.*

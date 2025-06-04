@@ -19,15 +19,6 @@ flowchart TD
     G -->|Validated Model| H[Deployment]
     H -->|Deployed Model| I[Monitoring]
     I -->|Performance Metrics| A
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
-    style F fill:#fffae6
-    style G fill:#e6eeff
-    style H fill:#f0f5e6
-    style I fill:#fff5e6
 ```
 
 *Figure 1.3.1: ML Pipeline Components. This diagram illustrates the key stages of the ML development lifecycle, showing the flow from data collection to model monitoring and the iterative nature of the process.*

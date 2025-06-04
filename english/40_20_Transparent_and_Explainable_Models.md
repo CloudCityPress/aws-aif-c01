@@ -23,16 +23,6 @@ flowchart LR
     C --> H[LIME]
     D --> I[Deep Neural Networks]
     D --> J[Random Forests]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#ffe6e6
-    style E fill:#fffae6
-    style F fill:#fffae6
-    style G fill:#fffae6
-    style H fill:#fffae6
-    style I fill:#fffae6
-    style J fill:#fffae6
 ```
 
 *Figure 4.2.1. AI Model Types and Examples. This diagram illustrates the categorization of AI models into transparent, explainable, and opaque types, along with examples of each category.*
@@ -84,20 +74,6 @@ flowchart LR
     D --> L[Data Quality Metrics]
     E --> M[Usage Rights]
     E --> N[Distribution Terms]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
-    style F fill:#fffae6
-    style G fill:#fffae6
-    style H fill:#fffae6
-    style I fill:#fffae6
-    style J fill:#fffae6
-    style K fill:#fffae6
-    style L fill:#fffae6
-    style M fill:#fffae6
-    style N fill:#fffae6
 ```
 
 *Figure 4.2.2. Tools for Transparent and Explainable Models. This diagram illustrates various tools and components that contribute to model transparency and explainability, including Amazon SageMaker Model Cards, open source models, data transparency, and licensing information.*
@@ -174,20 +150,6 @@ flowchart LR
     J --> L[Performance Metrics]
     J --> M[Robustness Tests]
     J --> N[Fairness Assessments]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#fffae6
-    style E fill:#fffae6
-    style F fill:#fffae6
-    style G fill:#fffae6
-    style H fill:#fffae6
-    style I fill:#fffae6
-    style J fill:#fff5e6
-    style K fill:#fffae6
-    style L fill:#fffae6
-    style M fill:#fffae6
-    style N fill:#fffae6
 ```
 
 *Figure 4.2.3. Model Safety vs. Transparency Tradeoffs. This diagram illustrates the key considerations in balancing model safety and transparency, along with techniques for measuring these aspects.*
@@ -240,21 +202,6 @@ flowchart LR
     F --> M[Business Context Integration]
     G --> N[Decision Support]
     H --> O[User Feedback Integration]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
-    style F fill:#f0f5e6
-    style G fill:#f0f5e6
-    style H fill:#f0f5e6
-    style I fill:#fffae6
-    style J fill:#fffae6
-    style K fill:#fffae6
-    style L fill:#fffae6
-    style M fill:#fffae6
-    style N fill:#fffae6
-    style O fill:#fffae6
 ```
 
 *Figure 4.2.4. Human-Centered Design Principles for Explainable AI. This diagram illustrates the key principles of human-centered design in the context of explainable AI, highlighting how these principles contribute to more effective and user-friendly AI explanations.*

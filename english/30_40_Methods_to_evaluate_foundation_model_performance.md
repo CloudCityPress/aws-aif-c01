@@ -20,13 +20,7 @@ flowchart TD
     D --> E[Conduct Evaluation]
     E --> F[Analyze Results]
     F --> G[Generate Insights]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#fff5e6
-    style F fill:#fff5e6
-    style G fill:#ffe6e6
+
 ```
 
 *Figure 3.4.1: Human Evaluation Process. This diagram illustrates the steps involved in conducting a human evaluation of foundation model performance, from defining criteria to generating insights.*
@@ -59,13 +53,7 @@ flowchart TD
     D --> E[Collect Performance Metrics]
     E --> F[Compare to Baselines]
     F --> G[Analyze Results]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#fff5e6
-    style E fill:#fff5e6
-    style F fill:#ffe6e6
-    style G fill:#ffe6e6
+
 ```
 
 *Figure 3.4.2: Benchmark Dataset Evaluation Process. This diagram outlines the steps involved in evaluating foundation model performance using benchmark datasets, from selection to analysis.*
@@ -118,14 +106,7 @@ flowchart TD
     E --> H[Final ROUGE Score]
     F --> H
     G --> H
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#fff5e6
-    style E fill:#ffe6e6
-    style F fill:#ffe6e6
-    style G fill:#ffe6e6
-    style H fill:#f2e6ff
+
 ```
 
 *Figure 3.4.3: ROUGE Evaluation Process. This diagram illustrates the steps involved in calculating ROUGE scores for assessing foundation model performance in text generation tasks.*
@@ -210,14 +191,6 @@ flowchart TD
     E --> F{Meet Objectives?}
     F -->|Yes| G[Continue Deployment]
     F -->|No| H[Refine Model/Process]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#fff5e6
-    style E fill:#fff5e6
-    style F fill:#ffe6e6
-    style G fill:#f2e6ff
-    style H fill:#f2e6ff
 ```
 
 *Figure 3.4.4: Productivity Evaluation Process. This diagram illustrates the steps involved in assessing the productivity gains from implementing a foundation model in a business context.*

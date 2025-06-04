@@ -89,11 +89,6 @@ flowchart TD
     C -->|Approved| D[Publish Content]
     C -->|Needs Revision| E[Feedback to AI]
     E --> B
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
 ```
 
 *Figure 2.2.1: Generative AI Content Creation Process. This diagram illustrates how generative AI can be integrated into a content creation workflow, showcasing its adaptability, responsiveness, and ability to work alongside human creators for optimal results.*
@@ -296,11 +291,6 @@ flowchart TD
     F --> M[Ecosystem]
     G & H & I & J & K & L & M --> N{Make Decision}
     N -->|Selected Model| O[Implementation]
-    style A fill:#e6eeff
-    style B fill:#fff5e6
-    style F fill:#f0f5e6
-    style N fill:#ffe6e6
-    style O fill:#f2e6ff
 ```
 
 *Figure 2.2.3: Generative AI Model Selection Process. This flowchart outlines the decision-making process for selecting an appropriate generative AI model, highlighting the various factors that need to be considered and how they feed into the final decision.*

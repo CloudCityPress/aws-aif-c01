@@ -26,10 +26,6 @@ flowchart TD
     A[Input Text] -->|Tokenization| B[Tokens]
     B -->|Embedding| C[Vector Representation]
     C -->|Similarity Calculation| D[Related Concepts]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
 ```
 
 *Figure 2.1.1: Embedding Process in Generative AI. This diagram illustrates the process of converting input text into vector representations, which are then used to find related concepts or perform other AI tasks.*
@@ -52,11 +48,6 @@ flowchart TD
     B --> C[Attention Mechanism]
     C --> D[Decoder]
     D --> E[Output]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#f2e6ff
-    style E fill:#ffe6e6
 ```
 
 *Figure 2.1.2: Simplified Transformer Architecture. This diagram shows the basic components of a Transformer model, highlighting the key elements that enable its powerful language understanding and generation capabilities.*
@@ -85,8 +76,6 @@ Diffusion models are a class of generative models particularly effective in imag
 ```mermaid
 flowchart LR
     A[Random Noise] -->|Denoising Steps| B[Generated Image]
-    style A fill:#e6eeff
-    style B fill:#ffe6e6
 ```
 
 *Figure 2.1.3: Simplified Diffusion Model Process. This diagram illustrates the basic concept of diffusion models, where random noise is gradually transformed into a coherent image through a series of denoising steps.*
@@ -174,21 +163,6 @@ flowchart LR
     D --> M[Search & Recommendations]
     E --> N[Code Generation]
     E --> O[Code modernization]
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#f0f5e6
-    style D fill:#f0f5e6
-    style E fill:#f0f5e6
-    style F fill:#fff5e6
-    style G fill:#fff5e6
-    style H fill:#fff5e6
-    style I fill:#fff5e6
-    style J fill:#fff5e6
-    style K fill:#fff5e6
-    style L fill:#fff5e6
-    style M fill:#fff5e6
-    style N fill:#fff5e6
-    style O fill:#fff5e6
 ```
 
 *Figure 2.1.4: Generative AI Use Cases. This diagram illustrates the diverse applications of generative AI across various business functions, highlighting the potential for innovation and efficiency improvements.*
@@ -278,13 +252,6 @@ flowchart TD
     E --> F[Deployment]
     F --> G[Feedback and Iteration]
     G -->|Continuous Improvement| A
-    style A fill:#e6eeff
-    style B fill:#f0f5e6
-    style C fill:#fff5e6
-    style D fill:#ffe6e6
-    style E fill:#f2e6ff
-    style F fill:#fffae6
-    style G fill:#e6eeff
 ```
 
 *Figure 2.1.5: Foundation Model Lifecycle. This diagram illustrates the cyclical nature of the foundation model lifecycle, emphasizing the continuous process of improvement and adaptation.*
