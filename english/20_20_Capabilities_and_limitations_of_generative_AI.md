@@ -1,4 +1,4 @@
-## 2.2 Understand the capabilities and limitations of generative AI for solving business problems
+## 2.2 Capabilities and limitations of generative AI
 
 Generative AI represents a powerful tool for solving complex business challenges across industries, creating new opportunities for innovation and efficiency. This transformative technology can produce human-like text, images, and code, opening possibilities for automation, personalization, and creative problem-solving. However, realizing its full potential requires understanding both its strengths and limitations.
 

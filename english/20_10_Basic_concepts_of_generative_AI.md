@@ -1,4 +1,4 @@
-## 2.1 Explain the basic concepts of generative AI
+## 2.1 Basic concepts of generative AI
 
 Generative AI transforms how businesses solve problems, foster creativity, and make decisions. This powerful technology creates new content, understands complex relationships, and automates tasks that once required significant human effort. Understanding these foundations is essential for anyone taking the AWS Certified AI Practitioner exam and professionals seeking to leverage AI in their organizations.
 

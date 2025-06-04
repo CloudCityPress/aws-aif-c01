@@ -1,4 +1,4 @@
-## 5.3 AI Safety and Security: Addressing Risks in AWS Solutions in the Era of AI
+## 5.3 AI Safety: Addressing Risks in AWS Solutions in the Era of AI
 
 AI safety and security have become critical considerations as artificial intelligence capabilities continue to advance. Organizations implementing AI solutions must understand potential risks, navigate evolving regulations, and implement appropriate safeguards. This chapter examines key risks, regulatory approaches, and practical security measures for AWS-based AI systems.
 

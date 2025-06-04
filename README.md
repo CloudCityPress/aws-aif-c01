@@ -50,41 +50,41 @@ The information in this guide is provided "as is" without warranty of any kind. 
 
 ## Part 1: AI and ML Fundamentals
 - [Chapter 1: Fundamentals of AI and ML](english/10_00_Fundamentals_of_AI_and_ML.md)
-  - [Section 1.1: AI and ML Concepts](english/10_10_AI_and_ML_Concepts.md)
-  - [Section 1.2: Machine Learning Types](english/10_20_Machine_Learning_Types.md)
-  - [Section 1.3: AI/ML Applications](english/10_30_AI_ML_Applications.md)
+  - [Section 1.1: AI and ML Concepts and Terminologies](english/10_10_AI_and_ML_Concepts.md)
+  - [Section 1.2: Practical use cases for AI](english/10_20_Practical_use_cases_for_AI.md)
+  - [Section 1.3: ML Development Lifecycle](english/10_30_ML_Development_Lifecycle.md)
 
-## Part 2: AWS AI Services
-- [Chapter 2: AWS AI Services Overview](english/20_00_AWS_AI_Services_Overview.md)
-  - [Section 2.1: Amazon SageMaker](english/20_10_Amazon_SageMaker.md)
-  - [Section 2.2: Amazon Bedrock](english/20_20_Amazon_Bedrock.md)
-  - [Section 2.3: AWS Infrastructure for AI Applications](english/20_30_AWS_Infrastructure_for_AI_Apps.md.md)
+## Part 2: Fundamentals of Generative AI
+- [Chapter 2: Fundamentals of Generative AI](english/20_00_Fundamentals_of_Generative_AI.md)
+  - [Section 2.1: Basic concepts of generative AI](english/20_10_Basic_concepts_of_generative_AI.md)
+  - [Section 2.2: Capabilities and limitations of generative AI](english/20_20_Capabilities_and_limitations_of_generative_AI.md)
+  - [Section 2.3: AWS Infrastructure for AI Applications](english/20_30_AWS_Infrastructure_for_AI_Apps.md)
   - [Section 2.4: Amazon Q Business](english/20_40_Amazon_Q_Business.md)
   - [Section 2.5: Amazon Q Developer](english/20_50_Amazon_Q_Developer.md)
   
-## Part 3: Computer Vision and NLP
-- [Chapter 3: Computer Vision and NLP Services](english/30_00_Computer_Vision_and_NLP_Services.md)
-  - [Section 3.1: Amazon Rekognition](english/30_10_Amazon_Rekognition.md)
-  - [Section 3.2: Amazon Textract](english/30_20_Amazon_Textract.md)
-  - [Section 3.3: Amazon Comprehend](english/30_30_Amazon_Comprehend.md)
-  - [Section 3.4: Amazon Polly](english/30_40_Amazon_Polly.md)
+## Part 3: Applications of Foundation Models
+- [Chapter 3: Applications of Foundation Models](english/30_00_Applications%20of%20Foundation%20Models.md)
+  - [Section 3.1: Design Considerations for apps that use FMs](english/30_10_Design_Considerations_for_apps_that_use_FMs.md)
+  - [Section 3.2: Prompt engineering](english/30_20_Prompt_engineering.md)
+  - [Section 3.3: Training and Fine-tuning](english/30_30_Training_and_Fine-tuning.md)
+  - [Section 3.4: Methods to evaluate foundation model performance](english/30_40_Methods_to_evaluate_foundation_model_performance.md)
 
-## Part 4: Generative AI
-- [Chapter 4: Generative AI and Foundation Models](english/40_00_Generative_AI_and_Foundation_Models.md)
-  - [Section 4.1: Foundation Models](english/40_10_Foundation_Models.md)
-  - [Section 4.2: Generative AI Applications](english/40_20_Generative_AI_Applications.md)
+## Part 4: Guidelines for Responsible AI
+- [Chapter 4: Guidelines for Responsible AI](english/40_00_Guidelines_for_Responsible_AI.md)
+  - [Section 4.1: Responsible AI Systems](english/40_10_Responsible_AI_Systems.md)
+  - [Section 4.2: Transparent and Explainable Models](english/40_20_Transparent_and_Explainable_Models.md)
 
-## Part 5: AI Implementation
-- [Chapter 5: AI Implementation and Best Practices](english/50_00_AI_Implementation_and_Best_Practices.md)
-  - [Section 5.1: AI Project Lifecycle](english/50_10_AI_Project_Lifecycle.md)
-  - [Section 5.2: MLOps and Deployment](english/50_20_MLOps_and_Deployment.md)
-  - [Section 5.3: Performance Monitoring](english/50_30_Performance_Monitoring.md)
+## Part 5: Security, Compliance, and Governance for AI Solutions
+- [Chapter 5: Security, Compliance, and Governance for AI Solutions](english/50_00_Security_Compliance_and_Governance_for_AI_Solutions.md)
+  - [Section 5.1: Methods to secure AI systems](english/50_10_Methods_to_secure_AI_systems.md)
+  - [Section 5.2: Governance and compliance regulations for AI systems](english/50_20_Governance_and_compliance_regulations_for_AI_systems.md)
+  - [Section 5.3: AI Safety](english/50_30_AI_Safety.md)
 
-## Part 6: Security and Compliance
-- [Chapter 6: AI Security and Compliance](english/60_00_AI_Security_and_Compliance.md)
-  - [Section 6.1: AI Security Best Practices](english/60_10_AI_Security_Best_Practices.md)
-  - [Section 6.2: Responsible AI](english/60_20_Responsible_AI.md)
-  - [Section 6.3: Compliance and Governance](english/60_30_Compliance_and_Governance.md)
+## Part 6: Additional Important Topics
+- [Chapter 6: Additional Important Topics](english/60_00_Additional_Important_Topics.md)
+  - [Section 6.1: AWS Global Infrastructure](english/60_10_AWS_Global_Infrastructure.md)
+  - [Section 6.2: AWS Pricing and Cost Optimization for AI](english/60_20_AWS%20Pricing%20and%20Cost%20Optimization%20for%20AI.md)
+  - [Section 6.3: AWS Well-Architected Framework for AI/ML](english/60_30_AWS_Well-Architected_Framework_for_AI_ML.md)
 
 ---
 

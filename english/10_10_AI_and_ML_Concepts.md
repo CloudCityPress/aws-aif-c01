@@ -1,4 +1,4 @@
-## 1.1 Basic AI Concepts and Terminologies
+## 1.1 AI and ML Concepts and Terminologies
 
 Understanding artificial intelligence (AI) and its related concepts has become essential for professionals across all industries. AI transforms business processes, decision-making, and customer experiences, making it vital to grasp the fundamental terminology and concepts that underpin this technology. This knowledge enables effective communication with technical teams and empowers business leaders to make informed decisions about AI adoption and strategy.
 

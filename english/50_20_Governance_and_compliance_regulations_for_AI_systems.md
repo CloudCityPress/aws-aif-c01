@@ -1,4 +1,4 @@
-## 5.2 Recognize governance and compliance regulations for AI systems
+## 5.2 Governance and compliance regulations for AI systems
 
 Governance and compliance regulations form the foundation of responsible AI implementation. Organizations deploying AI systems must navigate regulatory requirements, ethical considerations, and industry standards to ensure their AI solutions operate within appropriate legal and ethical boundaries. **Regulatory frameworks** and **compliance protocols** protect sensitive data, ensure fair decision-making, and establish accountability for AI outcomes.
 

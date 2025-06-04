@@ -1,4 +1,4 @@
-## 1.2 Identify practical use cases for AI
+## 1.2 Practical use cases for AI
 
 Artificial intelligence (AI) and machine learning (ML) have become powerful tools that transform how organizations operate, serve customers, and gain competitive advantages. Understanding where AI can deliver value—and where it might not be suitable—enables businesses to make strategic technology decisions. This subchapter explores practical AI applications, helps you identify appropriate use cases, and introduces the AWS services that can turn AI concepts into business solutions.
 
