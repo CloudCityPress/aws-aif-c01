@@ -139,36 +139,6 @@ Organizations implementing Amazon Q Developer may encounter several challenges, 
 
 ## Case Studies
 
-### Global Financial Services Transformation
-
-A major financial institution leveraged Amazon Q Developer to modernize their trading platform, which consisted of over 5 million lines of legacy Java code. The transformation project, which would have taken an estimated 18 months with traditional methods, was completed in just 3 months using Amazon Q Developer's code transformation capabilities.
-
-The results were transformative:
-- 85% reduction in transformation time
-- 60% fewer post-migration bugs compared to manual transformation
-- 40% improvement in application performance due to modern Java features
-- Significant reduction in security vulnerabilities through automated remediation
-
-### E-commerce Platform Acceleration
-
-An rapidly growing e-commerce company used Amazon Q Developer to accelerate feature development and improve code quality. By integrating Amazon Q Developer into their development workflow, they achieved:
-- 50% reduction in time to implement new features
-- 70% improvement in code review efficiency
-- 90% reduction in common security vulnerabilities
-- 45% increase in developer satisfaction scores
-
-The company particularly benefited from Amazon Q Developer's ability to generate comprehensive test suites, ensuring that rapid development didn't compromise quality.
-
-### Healthcare Innovation
-
-A healthcare technology provider utilized Amazon Q Developer to ensure HIPAA compliance while accelerating development. The AI assistant's understanding of security best practices and ability to generate compliant code patterns proved invaluable:
-- Automated generation of audit logs and encryption implementations
-- 80% reduction in compliance-related code review time
-- Consistent application of security patterns across all services
-- Faster onboarding of new developers to compliance requirements
-
-## Case Studies
-
 ### National Australia Bank: Transforming Developer Experience
 
 National Australia Bank (NAB), one of Australia's largest financial institutions with over 10 million customers, successfully implemented Amazon Q Developer to transform their software development practices. With more than 3,000 developers across Australia, India, and Vietnam managing millions of lines of code, NAB faced challenges in maintaining security, compliance, and quality standards while accelerating development.
