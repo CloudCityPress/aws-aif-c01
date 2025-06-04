@@ -26,8 +26,8 @@ If this free content has helped you in your AWS certification journey:
 - ⭐ **Star this repository** to help others discover it
 - 🛒 **Purchase a paperback, Kindle, or Audible** book version on [Amazon](https://a.co/d/4FJdTNT)
 - 📝 **Leave a review** on our Amazon listings
-- 🔗 **Share with colleagues** preparing for AWS certifications
-- 💡 **Contribute** by reporting errors or suggesting improvements
+- 🔗 **Share with colleagues and friends** preparing for AWS certifications
+- 💡 **Contribute** by reporting errors or suggesting improvements on [GitHub Issues](https://github.com/CloudCityPress/aws-aif-c01/issues)
 
 ## 📋 Disclaimer
 
