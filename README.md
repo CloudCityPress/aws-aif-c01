@@ -1,6 +1,7 @@
 [![CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 # AWS Certified AI Practitioner (AIF-C01): Cloud City Exam Guide
+by Vladimir Provorov
 
 > **Free English version for personal learning** 
 
@@ -58,6 +59,9 @@ The information in this guide is provided "as is" without warranty of any kind. 
   - [Section 2.1: Amazon SageMaker](english/20_10_Amazon_SageMaker.md)
   - [Section 2.2: Amazon Bedrock](english/20_20_Amazon_Bedrock.md)
   - [Section 2.3: AI Services Integration](english/20_30_AI_Services_Integration.md)
+  - [Section 2.4: Amazon Q Business](english/20_40_Amazon_Q_Business.md)
+  - [Section 2.5: Amazon Q Developer](english/20_50_Amazon_Q_Developer.md)
+  
 
 ## Part 3: Computer Vision and NLP
 - [Chapter 3: Computer Vision and NLP Services](english/30_00_Computer_Vision_and_NLP_Services.md)

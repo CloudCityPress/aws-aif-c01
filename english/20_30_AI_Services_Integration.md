@@ -58,6 +58,8 @@ Key features of Amazon Q include:
 
 A practical application of Amazon Q could be in IT support, where it can assist support staff in quickly diagnosing and resolving AWS-related issues, improving response times and reducing the need for escalations.
 
+> **Note**: Amazon Q has two specialized services: Amazon Q Business and Amazon Q Developer. These services will be covered in detail in the next sections, where we'll explore their specific capabilities, use cases, and implementation strategies for business and development scenarios.
+
 ```mermaid
 flowchart TD
     A[AWS Generative AI Services] -->|Model Access| B[Amazon Bedrock]
@@ -354,7 +356,6 @@ In conclusion, AWS provides a comprehensive ecosystem for building and deploying
 [^403]: Amazon Bedrock Overview. URL: <https://aws.amazon.com/bedrock/>
 [^404]: AWS Contact Center Intelligence and Conversational AI. URL: <https://aws.amazon.com/machine-learning/ml-use-cases/contact-center-intelligence/>
 [^405]: Announcing PartyRock, an Amazon Bedrock Playground. URL: <https://aws.amazon.com/about-aws/whats-new/2023/11/partyrock-amazon-bedrock-playground/>
-[^406]: Amazon Q Overview. URL: <https://aws.amazon.com/q/>
 [^407]: Personalization Use Cases - Generative AI - AWS. URL: <https://aws.amazon.com/ai/generative-ai/use-cases/personalization/>
 [^408]: AWS Financial Services Industry Solutions. URL: <https://aws.amazon.com/financial-services/>
 [^409]: AWS Media and Entertainment Industry Solutions. URL: <https://aws.amazon.com/media/>
@@ -375,3 +376,4 @@ In conclusion, AWS provides a comprehensive ecosystem for building and deploying
 [^424]: Amazon Bedrock Model Selection Guide. URL: <https://docs.aws.amazon.com/bedrock/latest/userguide/model-selection.html>
 [^425]: Build AI apps with PartyRock and Amazon Bedrock | AWS News Blog. URL: <https://aws.amazon.com/blogs/aws/build-ai-apps-with-partyrock-and-amazon-bedrock/>
 [^426]: AWS Digital Sovereignty. URL: <https://aws.amazon.com/compliance/digital-sovereignty/>
+[^406]: Amazon Q Overview. URL: <https://aws.amazon.com/q/>
