@@ -19,7 +19,7 @@ Written by Vladimir Provorov with feedback from industry experts and continuousl
 - Real-world AI implementation scenarios and best practices
 - Practice questions and explanations
 
-## ⭐ Show Your Support
+## ⭐ How to Support
 
 If this free content has helped you in your AWS certification journey:
 
@@ -48,40 +48,40 @@ The information in this guide is provided "as is" without warranty of any kind. 
 - [Useful Links](english/00_55_Links.md)
 
 ## Part 1: AI and ML Fundamentals
-- [Chapter 1: Fundamentals of AI and ML](english/10_00.md)
-  - [Section 1.1: AI and ML Concepts](english/10_10.md)
-  - [Section 1.2: Machine Learning Types](english/10_20.md)
-  - [Section 1.3: AI/ML Applications](english/10_30.md)
+- [Chapter 1: Fundamentals of AI and ML](english/10_00_Fundamentals_of_AI_and_ML.md)
+  - [Section 1.1: AI and ML Concepts](english/10_10_AI_and_ML_Concepts.md)
+  - [Section 1.2: Machine Learning Types](english/10_20_Machine_Learning_Types.md)
+  - [Section 1.3: AI/ML Applications](english/10_30_AI_ML_Applications.md)
 
 ## Part 2: AWS AI Services
-- [Chapter 2: AWS AI Services Overview](english/20_00.md)
-  - [Section 2.1: Amazon SageMaker](english/20_10.md)
-  - [Section 2.2: Amazon Bedrock](english/20_20.md)
-  - [Section 2.3: AI Services Integration](english/20_30.md)
+- [Chapter 2: AWS AI Services Overview](english/20_00_AWS_AI_Services_Overview.md)
+  - [Section 2.1: Amazon SageMaker](english/20_10_Amazon_SageMaker.md)
+  - [Section 2.2: Amazon Bedrock](english/20_20_Amazon_Bedrock.md)
+  - [Section 2.3: AI Services Integration](english/20_30_AI_Services_Integration.md)
 
 ## Part 3: Computer Vision and NLP
-- [Chapter 3: Computer Vision and NLP Services](english/30_00.md)
-  - [Section 3.1: Amazon Rekognition](english/30_10.md)
-  - [Section 3.2: Amazon Textract](english/30_20.md)
-  - [Section 3.3: Amazon Comprehend](english/30_30.md)
-  - [Section 3.4: Amazon Polly](english/30_40.md)
+- [Chapter 3: Computer Vision and NLP Services](english/30_00_Computer_Vision_and_NLP_Services.md)
+  - [Section 3.1: Amazon Rekognition](english/30_10_Amazon_Rekognition.md)
+  - [Section 3.2: Amazon Textract](english/30_20_Amazon_Textract.md)
+  - [Section 3.3: Amazon Comprehend](english/30_30_Amazon_Comprehend.md)
+  - [Section 3.4: Amazon Polly](english/30_40_Amazon_Polly.md)
 
 ## Part 4: Generative AI
-- [Chapter 4: Generative AI and Foundation Models](english/40_00.md)
-  - [Section 4.1: Foundation Models](english/40_10.md)
-  - [Section 4.2: Generative AI Applications](english/40_20.md)
+- [Chapter 4: Generative AI and Foundation Models](english/40_00_Generative_AI_and_Foundation_Models.md)
+  - [Section 4.1: Foundation Models](english/40_10_Foundation_Models.md)
+  - [Section 4.2: Generative AI Applications](english/40_20_Generative_AI_Applications.md)
 
 ## Part 5: AI Implementation
-- [Chapter 5: AI Implementation and Best Practices](english/50_00.md)
-  - [Section 5.1: AI Project Lifecycle](english/50_10.md)
-  - [Section 5.2: MLOps and Deployment](english/50_20.md)
-  - [Section 5.3: Performance Monitoring](english/50_30.md)
+- [Chapter 5: AI Implementation and Best Practices](english/50_00_AI_Implementation_and_Best_Practices.md)
+  - [Section 5.1: AI Project Lifecycle](english/50_10_AI_Project_Lifecycle.md)
+  - [Section 5.2: MLOps and Deployment](english/50_20_MLOps_and_Deployment.md)
+  - [Section 5.3: Performance Monitoring](english/50_30_Performance_Monitoring.md)
 
 ## Part 6: Security and Compliance
-- [Chapter 6: AI Security and Compliance](english/60_00.md)
-  - [Section 6.1: AI Security Best Practices](english/60_10.md)
-  - [Section 6.2: Responsible AI](english/60_20.md)
-  - [Section 6.3: Compliance and Governance](english/60_30.md)
+- [Chapter 6: AI Security and Compliance](english/60_00_AI_Security_and_Compliance.md)
+  - [Section 6.1: AI Security Best Practices](english/60_10_AI_Security_Best_Practices.md)
+  - [Section 6.2: Responsible AI](english/60_20_Responsible_AI.md)
+  - [Section 6.3: Compliance and Governance](english/60_30_Compliance_and_Governance.md)
 
 ---
 
