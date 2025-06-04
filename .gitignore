@@ -1,0 +1,74 @@
+# Book style guides and templates
+/style-guides/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Build output
+/build/
+/dist/
+/out/
+
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.js
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# AWS specific
+.aws/
+aws-credentials.json
+
+# Backup files
+*.bak
+*.backup
+*_backup
+
+# Media files
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.mp3
+*.wav
+*.pdf
+*.epub
+*.mobi
+
+# Large binary files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation drafts
+/drafts/
+*.draft.md
+*.review.md
+
+# Personal notes
+/notes/
+*.note
+*.todo 
