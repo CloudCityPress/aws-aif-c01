@@ -26,37 +26,6 @@ The **retail and e-commerce** industry benefits from Amazon Bedrock's ability to
 
 In the **enterprise software** space, companies like Salesforce extend their platforms with Amazon Bedrock capabilities. By integrating foundation models into Salesforce Data Cloud, enterprises can leverage AI across their customer relationship management workflows without managing infrastructure. This integration exemplifies how Amazon Bedrock enables software vendors to enhance their offerings with AI capabilities quickly and efficiently.
 
-```mermaid
-flowchart TD
-    A[Amazon Bedrock Use Cases] --> B[Financial Services]
-    A --> C[Healthcare]
-    A --> D[Retail & E-commerce]
-    A --> E[Travel & Hospitality]
-    A --> F[Enterprise Software]
-    
-    B --> B1[Fraud Detection<br/>Nasdaq]
-    B --> B2[Regulatory Compliance<br/>Broadridge]
-    B --> B3[Risk Assessment]
-    
-    C --> C1[Clinical Documentation<br/>Netsmart, 3M]
-    C --> C2[Patient Insights<br/>Merck]
-    C --> C3[Research Acceleration<br/>Pfizer]
-    
-    D --> D1[Product Descriptions]
-    D --> D2[Personalization<br/>The Very Group]
-    D --> D3[Customer Service<br/>DoorDash]
-    
-    E --> E1[Itinerary Generation<br/>Lonely Planet]
-    E --> E2[Content Creation<br/>TUI]
-    E --> E3[Virtual Assistants<br/>iFood]
-    
-    F --> F1[CRM Enhancement<br/>Salesforce]
-    F --> F2[Document Management<br/>KDAN]
-    F --> F3[Workflow Automation<br/>Smartsheet]
-```
-
-*Figure 2.3.1: Amazon Bedrock Use Cases Across Industries. This diagram illustrates how different industries leverage Amazon Bedrock for specific applications, with real customer examples demonstrating the breadth of possibilities.*
-
 ### Key features and capabilities
 
 Amazon Bedrock provides a comprehensive set of features designed to address the full lifecycle of generative AI application development, from experimentation to production deployment. These capabilities enable organizations to build sophisticated AI applications while maintaining enterprise requirements for security, compliance, and performance.
