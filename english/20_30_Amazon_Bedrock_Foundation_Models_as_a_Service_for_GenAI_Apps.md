@@ -146,32 +146,6 @@ Real-world implementations of Amazon Bedrock demonstrate how organizations acros
 
 **Pfizer: Transforming Pharmaceutical Research** exemplifies Amazon Bedrock's impact on critical research and development. The pharmaceutical giant built VOX, a generative AI solution using models from Amazon Bedrock, to accelerate research and predict product yield. By centralizing data from hundreds of laboratory instruments and applying AI analysis, Pfizer made it simpler and faster for scientists to search and analyze research data. This implementation not only saved tens of millions of dollars annually but also helped deliver medicines to over 1.3 billion patients. The case study illustrates how AI can accelerate life-saving research while reducing costs.[^2317]
 
-```mermaid
-flowchart LR
-    A[Implementation Patterns] --> B[Legacy Modernization]
-    A --> C[Customer Support]
-    A --> D[Developer Productivity]
-    A --> E[Rapid Development]
-    A --> F[Research Acceleration]
-    
-    B --> B1[United Airlines<br/>PNR Translation]
-    B --> B2[6 months → days<br/>training time]
-    
-    C --> C1[DoorDash<br/>AI Contact Center]
-    C --> C2[Millions of users<br/>served globally]
-    
-    D --> D1[Smartsheet<br/>Roo Code]
-    D --> D2[60% cost reduction<br/>20% latency improvement]
-    
-    E --> E1[KDAN<br/>Document AI]
-    E --> E2[50% faster<br/>development]
-    
-    F --> F1[Pfizer<br/>VOX Platform]
-    F --> F2[Tens of millions<br/>in savings]
-```
-
-*Figure 2.3.2: Amazon Bedrock Implementation Patterns and Results. This diagram shows common implementation patterns and their business outcomes across different customer case studies.*
-
 ### Conclusion
 
 Amazon Bedrock represents a paradigm shift in how organizations approach generative AI, transforming it from an experimental technology to a practical business tool. By providing access to multiple foundation models through a unified platform, combined with enterprise-grade security, customization capabilities, and comprehensive safety controls, Amazon Bedrock enables organizations to build sophisticated AI applications that deliver real business value.
