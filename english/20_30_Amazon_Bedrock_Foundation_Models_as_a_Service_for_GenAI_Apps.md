@@ -33,7 +33,7 @@ Amazon Bedrock provides a comprehensive set of features designed to address the 
 **Model Choice and Flexibility** stands as a cornerstone feature of Amazon Bedrock. The platform provides access to leading foundation models through a single API, including:
 
 - **Anthropic's Claude family**: Excelling in complex reasoning, creative writing, and coding tasks with models trained using Constitutional AI for improved safety
-- **Amazon Titan models**: Offering high-performance text generation, summarization, and multimodal capabilities with built-in safeguards
+- **Amazon Titan and Amazon Nova models**: Offering high-performance text generation, summarization, and multimodal capabilities with built-in safeguards
 - **Meta's Llama models**: Providing open-weight models for dialogue, natural language tasks, and code generation
 - **AI21 Labs' Jurassic models**: Specialized for enterprise text generation with instruction-following capabilities
 - **Cohere's models**: Optimized for text generation, semantic search, and classification tasks
