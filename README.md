@@ -58,7 +58,7 @@ The information in this guide is provided "as is" without warranty of any kind. 
 - [Chapter 2: Fundamentals of Generative AI](english/20_00_Fundamentals_of_Generative_AI.md)
   - [Section 2.1: Basic concepts of generative AI](english/20_10_Basic_concepts_of_generative_AI.md)
   - [Section 2.2: Capabilities and limitations of generative AI](english/20_20_Capabilities_and_limitations_of_generative_AI.md)
-  - [Section 2.3: AWS Infrastructure for AI Applications](english/20_30_AWS_Infrastructure_for_AI_Apps.md)
+  - [Section 2.3: Amazon Bedrock: Foundation Models as a Service for GenAI Applications](english/20_30_Amazon_Bedrock_Foundation_Models_as_a_Service_for_GenAI_Apps.md)
   - [Section 2.4: Amazon Q Business](english/20_40_Amazon_Q_Business.md)
   - [Section 2.5: Amazon Q Developer](english/20_50_Amazon_Q_Developer.md)
   
