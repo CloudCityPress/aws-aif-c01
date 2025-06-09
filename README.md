@@ -42,6 +42,7 @@ The information in this guide is provided "as is" without warranty of any kind. 
 
 ## Front Matter
 - [Book Cover](english/00_00_BookCover.md)
+- [Copyrights](english/00_20_Copyrights.md)
 - [Acknowledgements](english/00_30_Acknowledgements.md)
 - [About the Author](english/00_40_About_the_author.md)
 - [Introduction](english/00_50_Introduction.md)
