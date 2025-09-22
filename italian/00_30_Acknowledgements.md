@@ -1,0 +1,11 @@
+# Ringraziamenti
+
+L'intelligenza artificiale prospera sulla collaborazione, con innovazioni che emergono dall'expertise collettiva dei professionisti tecnologici globali. Questa guida per la certificazione AWS AI incarna questo spirito collaborativo, combinando diverse intuizioni per creare una risorsa robusta per i professionisti AI a ogni livello.
+
+La mia sincera gratitudine va ai revisori tecnici che hanno esaminato meticolosamente questo contenuto per accuratezza e chiarezza: Mikhail Malyshev, Sergey Belevskiy (Wildberries), Eugene Sergeev (Microsoft), Ivan Khvostishkov (AWS), Alex Kats, Sergey Simakov (Google), Maxim Kim (Microsoft), Alexander Matyushenko (Visa), Marc Luescher (AWS), Sandra Wang (Zscaler), Mateo Martinez (AWS), Jakob Maxbauer (Airbus), Bitan Jyoti Ghosh (Accenture), Charles Lelu (AWS), Peter Lopes Pereira (AWS), Dennis Rothmel (AWS), Won Huh (AWS), e molti altri. La loro esperienza nei sistemi AI/ML e nei servizi cloud ha garantito che questa guida soddisfi gli standard rigorosi richiesti per la preparazione alla certificazione.
+
+Un ringraziamento speciale a Nadezhda Leonova per aver creato il design visivamente accattivante della copertina che cattura elegantemente la convergenza tra intelligenza artificiale e cloud computing, fornendo un'introduzione visiva appropriata al materiale contenuto.
+
+Sono profondamente grato alla più ampia comunità AWS—inclusi solutions architect, formatori e professionisti—le cui esperienze pratiche e intuizioni hanno arricchito immensamente questa risorsa. La loro disponibilità a condividere conoscenze sui percorsi di certificazione AWS ha significativamente migliorato il valore pratico di questa guida.
+
+Questo libro rappresenta un vero risultato collaborativo, riflettendo la dedizione di professionisti impegnati nel promuovere l'adozione dell'AI e nell'aiutare altri a avere successo nelle loro iniziative di trasformazione cloud. I loro contributi hanno trasformato questa guida in una risorsa essenziale per i professionisti del business che cercano di sfruttare le tecnologie AI nelle loro organizzazioni.
