@@ -67,30 +67,14 @@ This certification validates foundational knowledge of AI/ML and generative AI t
 
 The AWS Certified AI Practitioner sits at the Foundational level. Several other certifications cover AI and ML at greater technical depth. Understanding where AIF-C01 fits helps you plan your certification path after this exam.
 
-```mermaid
-flowchart TD
-    A[AI Practitioner<br>AIF-C01 - Foundational] --> B[What you need to know]
-    B --> C[Concepts and terminology]
-    B --> D[Business use cases]
-    B --> E[AWS AI service capabilities]
+*Table 0.4: AI/ML Certification Comparison.*
 
-    F[ML Engineer Associate<br>MLA-C01] --> G[What you need to know]
-    G --> H[Implementing ML solutions]
-    G --> I[SageMaker workflows]
-    G --> J[Model training and deployment]
-
-    K[GenAI Developer Pro<br>AIP-C01] --> L[What you need to know]
-    L --> M[RAG and vector stores]
-    L --> N[Agentic AI architectures]
-    L --> O[FM integration and prompt engineering]
-
-    P[Data Engineer Associate<br>DEA-C01] --> Q[What you need to know]
-    Q --> R[Data pipelines]
-    Q --> S[Storage and integration]
-    Q --> T[Data quality and governance]
-```
-
-*Figure 0.4: AI/ML Certification Comparison. Each certification targets a different audience and depth of knowledge. AIF-C01 is the only one that requires no hands-on implementation experience.*
+| Certification | Level | Audience | Focus |
+|---|---|---|---|
+| AI Practitioner (AIF-C01) | Foundational | Business professionals | Concepts, use cases, AWS AI services |
+| ML Engineer Associate (MLA-C01) | Associate | ML engineers, data scientists | SageMaker, model training and deployment |
+| GenAI Developer Pro (AIP-C01) | Professional | GenAI developers | RAG, agentic AI, FM integration |
+| Data Engineer Associate (DEA-C01) | Associate | Data engineers | Pipelines, storage, data quality |
 
 The **Machine Learning Engineer - Associate (MLA-C01)** is the natural next step after AIF-C01 for professionals moving toward technical implementation. It validates hands-on ability to build, train, and deploy ML models using Amazon SageMaker. It targets data scientists, ML engineers, and developers who write code and build production ML systems.
 
