@@ -11,56 +11,47 @@ Beyond validation, AWS certifications deliver tangible benefits including profes
 AWS offers a comprehensive certification program that covers a range of skills and expertise levels. This structured path helps professionals build strong foundations in cloud and AI technologies, progressing from basic knowledge to advanced specializations across four main categories: Foundational, Associate, Professional, and Specialty.
 
 ```mermaid
-graph LR
+flowchart LR
     A[AWS Certification Path] --> B[Foundational]
     A --> E[Associate]
     A --> F[Professional]
     A --> G[Specialty]
-    
-    Z[We are here!]:::note -.- D
-    B:::gray --> D[AI Practitioner]:::gray
-    B:::gray --> C[Cloud Practitioner]:::gray    
-    
-    E:::blue --> H[Solutions Architect]:::blue
-    E:::blue --> I[Developer]:::blue
-    E:::blue --> J[SysOps Administrator]:::blue
-    E:::blue --> K[Data Engineer]:::blue
-    E:::blue --> L[Machine Learning Engineer]:::blue
-    
-    F:::cyan --> M[Solutions Architect]:::cyan
-    F:::cyan --> N[DevOps Engineer]:::cyan
-    
-    G:::purple --> O[Advanced Networking]:::purple
-    G:::purple --> P[Machine Learning]:::purple
-    G:::purple --> Q[Security]:::purple
-    
-    classDef gray fill:#E0E0E0,color:black
-    classDef blue fill:#B3D9FF,color:black
-    classDef cyan fill:#B3E6E6,color:black
-    classDef purple fill:#D9B3FF,color:black
-    classDef default fill:#ffffff,stroke:#000000
-    classDef note fill:none,stroke:none,color:gray
+
+    B --> D[AI Practitioner<br>AIF-C01]
+    B --> C[Cloud Practitioner<br>CLF-C02]
+
+    E --> H[Solutions Architect<br>SAA-C03]
+    E --> I[Developer<br>DVA-C02]
+    E --> J[CloudOps Engineer<br>SOA-C03]
+    E --> K[Data Engineer<br>DEA-C01]
+    E --> L[ML Engineer<br>MLA-C01]
+
+    F --> M[Solutions Architect<br>SAP-C02]
+    F --> N[DevOps Engineer<br>DOP-C02]
+    F --> P[GenAI Developer<br>AIP-C01]
+
+    G --> O[Advanced Networking<br>ANS-C01]
+    G --> Q[Security<br>SCS-C03]
 ```
 
-This diagram illustrates the AWS certification hierarchy, with the new **AI Practitioner** certification joining Cloud Practitioner at the foundational level. This structure enables professionals to begin with fundamental knowledge and progress to specialized expertise aligned with their career goals.
+*Figure 0.2: AWS Certification Hierarchy. All current AWS certifications organized by level. The AI Practitioner (AIF-C01) sits at the Foundational level alongside Cloud Practitioner.*
 
-For aspiring AI/ML specialists on AWS, a recommended certification path would be:
+This structure enables professionals to begin with fundamental knowledge and progress to specialized expertise aligned with their career goals. Note that the Machine Learning - Specialty (MLS-C01) exam is retiring on March 31, 2026 and is not shown above. AWS recommends the Machine Learning Engineer - Associate (MLA-C01) as the primary path for ML practitioners going forward.
+
+For professionals building an AI and ML specialization on AWS, the recommended certification sequence is:
 
 ```mermaid
-graph LR
-    A[Cloud<br>Practitioner]:::gray --> B[AI<br>Practitioner]:::gray
-    B --> C[Solutions<br>Architect]:::blue
-    C --> D[Machine<br>Learning Engineer]:::blue
-    D --> E[Data<br>Engineer]:::blue
-    E --> F[Machine Learning<br>Specialty]:::purple
-  
-    classDef gray fill:#E0E0E0,color:black
-    classDef blue fill:#B3D9FF,color:black
-    classDef purple fill:#D9B3FF,color:black
-    classDef default fill:#ffffff,stroke:#000000
+flowchart LR
+    A[Cloud Practitioner<br>CLF-C02] --> B[AI Practitioner<br>AIF-C01]
+    B --> C[ML Engineer<br>MLA-C01]
+    B --> D[Data Engineer<br>DEA-C01]
+    C --> E[GenAI Developer Pro<br>AIP-C01]
+    D --> E
 ```
 
-This journey represents increasing technical depth in AI and ML technologies, culminating in the Machine Learning Specialty certification, which validates comprehensive expertise in designing, implementing, and deploying ML solutions on AWS.
+*Figure 0.3: Recommended AI/ML Certification Path. Starting from AI Practitioner, professionals can pursue the ML Engineer Associate and Data Engineer Associate before advancing to the Generative AI Developer Professional certification.*
+
+This path represents increasing technical depth, moving from foundational AI literacy through hands-on ML engineering and data skills toward advanced generative AI solution development.
 
 To maintain certification validity, AWS requires recertification every three years, ensuring certified individuals stay current with the latest AWS technologies and best practices.
 
@@ -72,33 +63,42 @@ The AWS Certified AI Practitioner certification addresses the growing need for A
 
 This certification validates foundational knowledge of AI/ML and generative AI technologies on AWS. Designed for business analysts, product managers, and non-technical professionals who work with AI solutions, it bridges the gap between technical implementation and business objectives. By validating your ability to evaluate AI solutions and communicate with technical teams, it enables organizations to effectively leverage AI capabilities and drive innovation.
 
-### How It Differs from Other ML Certifications
+### How It Differs from Other AI/ML Certifications
 
-The AWS Certified AI Practitioner, Data Engineer - Associate, and Machine Learning - Specialty certifications target different audiences and skill levels, though all relate to artificial intelligence and machine learning on AWS.
+The AWS Certified AI Practitioner sits at the Foundational level. Several other certifications cover AI and ML at greater technical depth. Understanding where AIF-C01 fits helps you plan your certification path after this exam.
 
 ```mermaid
-graph TD
-    A[AWS AI/ML Certifications] --> B[AI Practitioner]:::gray
-    A --> C[Data Engineer]:::blue
-    A --> D[ML Specialty]:::purple
-    B --> E[Business Focus:<br/>Concepts<br/>Use Cases<br/>Best Practices]:::gray
-    C --> F[Infrastructure Focus:<br/>Data Pipelines<br/>Storage<br/>Integration]:::blue
-    D --> G[Technical Focus:<br/>Implementation<br/>Model Development<br/>ML Engineering]:::purple
+flowchart TD
+    A[AI Practitioner<br>AIF-C01 - Foundational] --> B[What you need to know]
+    B --> C[Concepts and terminology]
+    B --> D[Business use cases]
+    B --> E[AWS AI service capabilities]
 
+    F[ML Engineer Associate<br>MLA-C01] --> G[What you need to know]
+    G --> H[Implementing ML solutions]
+    G --> I[SageMaker workflows]
+    G --> J[Model training and deployment]
 
-    classDef gray fill:#E0E0E0,color:black
-    classDef blue fill:#B3D9FF,color:black
-    classDef purple fill:#D9B3FF,color:black
-    classDef default fill:#ffffff,stroke:#000000
+    K[GenAI Developer Pro<br>AIP-C01] --> L[What you need to know]
+    L --> M[RAG and vector stores]
+    L --> N[Agentic AI architectures]
+    L --> O[FM integration and prompt engineering]
+
+    P[Data Engineer Associate<br>DEA-C01] --> Q[What you need to know]
+    Q --> R[Data pipelines]
+    Q --> S[Storage and integration]
+    Q --> T[Data quality and governance]
 ```
 
-The **Machine Learning - Specialty** certification validates deep technical expertise in implementing ML solutions. It requires hands-on development experience and targets data scientists, ML engineers, and developers who build and deploy ML models on AWS.
+*Figure 0.4: AI/ML Certification Comparison. Each certification targets a different audience and depth of knowledge. AIF-C01 is the only one that requires no hands-on implementation experience.*
 
-The **Data Engineer - Associate** certification focuses on the data infrastructure and pipeline development that supports ML/AI initiatives. It targets professionals who design and maintain data pipelines, implement data storage solutions, and ensure data quality and accessibility.
+The **Machine Learning Engineer - Associate (MLA-C01)** is the natural next step after AIF-C01 for professionals moving toward technical implementation. It validates hands-on ability to build, train, and deploy ML models using Amazon SageMaker. It targets data scientists, ML engineers, and developers who write code and build production ML systems.
 
-In contrast, the **AI Practitioner** certification focuses on fundamental knowledge and business applications. It's designed for professionals who work with AI/ML solutions but don't necessarily build them, including business analysts, product managers, and IT support professionals.
+The **Generative AI Developer - Professional (AIP-C01)** is the advanced certification for professionals building production-grade generative AI applications. It covers RAG architectures, vector stores, agentic AI systems, FM integration patterns, and AI safety in depth. It requires substantial hands-on development experience.
 
-This differentiation reflects the growing importance of AI literacy and infrastructure across organizations. While ML Specialty holders build AI solutions and Data Engineers ensure robust data foundations, AI Practitioners guide their effective and responsible use in business contexts.
+The **Data Engineer - Associate (DEA-C01)** focuses on the data infrastructure that supports AI/ML systems -- pipelines, storage, ETL, and data quality. It targets professionals who build and maintain the data foundations that ML models depend on.
+
+The **AI Practitioner (AIF-C01)** is distinct from all three. It requires no implementation experience and focuses on understanding AI capabilities, evaluating solutions, and applying responsible AI practices. Business analysts, product managers, and technical professionals who work with AI teams without building models are the primary audience.
 
 ## Exam Details and Structure
 
@@ -107,7 +107,7 @@ This differentiation reflects the growing importance of AI literacy and infrastr
 The AWS Certified AI Practitioner (AIF-C01) exam features 65 questions to be completed in 90 minutes. Available in English, Japanese, Korean, Portuguese (Brazil), and Simplified Chinese, it requires a passing score of 700 out of 1000 points.
 
 ```mermaid
-graph LR
+flowchart LR
     A[Exam Content] --> B[Domain 1: AI/ML Fundamentals 20%]
     A --> C[Domain 2: Generative AI 24%]
     A --> D[Domain 3: Foundation Models 28%]
