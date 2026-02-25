@@ -34,7 +34,7 @@ flowchart LR
     G --> Q[Security<br>SCS-C03]
 ```
 
-*Figure 0.2: AWS Certification Hierarchy. All current AWS certifications organized by level. The AI Practitioner (AIF-C01) sits at the Foundational level alongside Cloud Practitioner.*
+*Figure 2: AWS Certification Hierarchy. All current AWS certifications organized by level. The AI Practitioner (AIF-C01) sits at the Foundational level alongside Cloud Practitioner.*
 
 This structure enables professionals to begin with fundamental knowledge and progress to specialized expertise aligned with their career goals. Note that the Machine Learning - Specialty (MLS-C01) exam is retiring on March 31, 2026 and is not shown above. AWS recommends the Machine Learning Engineer - Associate (MLA-C01) as the primary path for ML practitioners going forward.
 
@@ -49,7 +49,7 @@ flowchart LR
     D --> E
 ```
 
-*Figure 0.3: Recommended AI/ML Certification Path. Starting from AI Practitioner, professionals can pursue the ML Engineer Associate and Data Engineer Associate before advancing to the Generative AI Developer Professional certification.*
+*Figure 3: Recommended AI/ML Certification Path. Starting from AI Practitioner, professionals can pursue the ML Engineer Associate and Data Engineer Associate before advancing to the Generative AI Developer Professional certification.*
 
 This path represents increasing technical depth, moving from foundational AI literacy through hands-on ML engineering and data skills toward advanced generative AI solution development.
 
@@ -67,7 +67,7 @@ This certification validates foundational knowledge of AI/ML and generative AI t
 
 The AWS Certified AI Practitioner sits at the Foundational level. Several other certifications cover AI and ML at greater technical depth. Understanding where AIF-C01 fits helps you plan your certification path after this exam.
 
-*Table 0.4: AI/ML Certification Comparison.*
+*Table 4: AI/ML Certification Comparison.*
 
 | Certification | Level | Audience | Focus |
 |---|---|---|---|
@@ -98,6 +98,7 @@ flowchart LR
     A --> E[Domain 4: Responsible AI 14%]
     A --> F[Domain 5: Security & Governance 14%]
 ```
+*Figure 5: AIF-C01 Exam Domain Weights. Foundation Models and Generative AI together account for more than half of the exam content.*
 
 Foundation Models and Generative AI comprise over half of the exam content, reflecting their growing importance in enterprise AI adoption. The exam assesses your ability to:
 - Demonstrate comprehensive understanding of AI/ML concepts and AWS services
@@ -113,7 +114,7 @@ Candidates should understand the **AWS shared responsibility model**, AWS Identi
 
 Different professionals can benefit from this certification in unique ways:
 
-Table 2. Roles Benefiting from AWS Certified AI Practitioner
+*Table 6: Roles Benefiting from AIF-C01 Certification.*
 
 | Role Category | Key Personnel | Primary Benefits | Key Activities |
 |--------------|---------------|------------------|----------------|
@@ -198,6 +199,7 @@ flowchart LR
     C --> D[Model Evaluation]
     D --> E[Deployment]
 ```
+*Figure 7: Typical ML Workflow Sequence. Ordering questions test whether you can arrange these steps correctly.*
 
 Each step builds upon previous ones in a logical sequence reflecting real-world AI/ML workflows. When answering ordering questions, consider:
 - Dependencies between steps
@@ -304,7 +306,7 @@ Remember that questions test your ability to apply knowledge in realistic scenar
 
 AWS offers comprehensive resources through AWS Skill Builder, a dedicated learning portal that provides both free and subscription-based training options to help professionals prepare for their certifications.
 
-Table 1. Key Preparation Resources for AWS Certifications
+*Table 8: Key Preparation Resources for AIF-C01.*
 
 | Resource Type | Description | Best For |
 |--------------|-------------|-----------|
