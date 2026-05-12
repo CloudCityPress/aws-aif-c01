@@ -2,93 +2,128 @@
 
 ## Introduction to AWS Certifications
 
-AWS certifications validate expertise in cloud and AI technologies that power modern business operations. These industry-recognized credentials serve as benchmarks for technical proficiency and provide structured pathways for professionals to develop skills that effectively leverage AWS capabilities. For organizations undergoing digital transformation, certified professionals bring valuable expertise that drives innovation and operational efficiency.
+AWS certifications validate expertise in cloud and AI technologies that underpin most of today's enterprise computing. They are recognized industry-wide as a proxy for technical proficiency and as a structured path for professionals who want to develop the skills needed to use AWS effectively. For organizations going through digital transformation, certified professionals bring expertise that translates directly into faster project delivery and fewer expensive mistakes.
 
-Beyond validation, AWS certifications deliver tangible benefits including professional recognition, career advancement opportunities, and often higher earning potential. The skills acquired through certification directly apply to real-world business challenges, enabling professionals to implement effective cloud solutions. The certification process also promotes continuous learning, helping professionals stay current with rapidly evolving cloud technologies.
+The benefits go beyond the credential itself. Certified professionals report higher salaries, more interview pipeline, and better positioning for promotions and stretch assignments.[^006001] The skills behind the certification map to real-world challenges, and the recertification cycle keeps holders current as the AWS portfolio evolves.
 
 ## AWS Certification Path
 
-AWS offers a comprehensive certification program that covers a range of skills and expertise levels. This structured path helps professionals build strong foundations in cloud and AI technologies, progressing from basic knowledge to advanced specializations across four main categories: Foundational, Associate, Professional, and Specialty.
+AWS organizes its certification program into four levels: Foundational, Associate, Professional, and Specialty. The structure lets professionals begin with broad knowledge and progress into specialized expertise that aligns with their career goals.
 
 ```mermaid
-flowchart LR
-    A[AWS Certification Path] --> B[Foundational]
-    A --> E[Associate]
-    A --> F[Professional]
-    A --> G[Specialty]
-
-    B --> D[AI Practitioner<br>AIF-C01]
-    B --> C[Cloud Practitioner<br>CLF-C02]
-
-    E --> H[Solutions Architect<br>SAA-C03]
-    E --> I[Developer<br>DVA-C02]
-    E --> J[CloudOps Engineer<br>SOA-C03]
-    E --> K[Data Engineer<br>DEA-C01]
-    E --> L[ML Engineer<br>MLA-C01]
-
-    F --> M[Solutions Architect<br>SAP-C02]
-    F --> N[DevOps Engineer<br>DOP-C02]
-    F --> P[GenAI Developer<br>AIP-C01]
-
-    G --> O[Advanced Networking<br>ANS-C01]
-    G --> Q[Security<br>SCS-C03]
+flowchart LR    
+    subgraph F["Foundational"]
+        direction LR
+        F1[AI Practitioner]
+        F2[Cloud<br>Practitioner]
+    end
+    subgraph A["Associate"]
+        direction LR
+        A1[Solutions<br>Architect]
+        A2[Developer]
+        A3[CloudOps<br>Engineer]
+        A4[Data<br>Engineer]
+        A5[ML Engineer]
+    end
+    subgraph P["Professional"]
+        direction LR
+        P1[Solutions<br>Architect]
+        P2[DevOps<br>Engineer]
+        P3[Generative AI<br>Developer]
+    end
+    subgraph S["Specialty"]
+        direction LR
+        S1[Advanced<br>Networking]
+        S2[Security]
+    end
+    F --> A
+    A --> P
+    P --> S
 ```
 
-*Figure 2: AWS Certification Hierarchy. All current AWS certifications organized by level. The AI Practitioner (AIF-C01) sits at the Foundational level alongside Cloud Practitioner.*
+*Figure 0.6.1: The full AWS certification portfolio in May 2026, grouped by tier. Twelve active certifications cover roles from cloud literacy to deep AI engineering. AI Practitioner is one of two foundational certifications; Generative AI Developer at the Professional level extends the AI/ML track for deeper-skilled audiences.*
 
-This structure enables professionals to begin with fundamental knowledge and progress to specialized expertise aligned with their career goals. Note that the Machine Learning - Specialty (MLS-C01) exam is retiring on March 31, 2026 and is not shown above. AWS recommends the Machine Learning Engineer - Associate (MLA-C01) as the primary path for ML practitioners going forward.
+The diagram shows how the **AI Practitioner** certification fits next to **Cloud Practitioner** at the foundational level.[^006002] The Machine Learning Specialty certification, which used to anchor the deep technical AI/ML track, retired on March 31, 2026, and has been replaced by the **Machine Learning Engineer - Associate** and the **Generative AI Developer - Professional**.[^006003] AWS also renamed SysOps Administrator - Associate to **CloudOps Engineer - Associate** in 2025.
 
-For professionals building an AI and ML specialization on AWS, the recommended certification sequence is:
+The AWS certification ladder is not a single straight line. Different roles take different paths to the same advanced credentials. The map below sketches three common multi-pass routes:
 
 ```mermaid
-flowchart LR
-    A[Cloud Practitioner<br>CLF-C02] --> B[AI Practitioner<br>AIF-C01]
-    B --> C[ML Engineer<br>MLA-C01]
-    B --> D[Data Engineer<br>DEA-C01]
-    C --> E[GenAI Developer Pro<br>AIP-C01]
-    D --> E
+flowchart TB
+    
+    P[AI Practitioner]
+
+    subgraph B[Cloud and AI literacy]
+        direction TB
+        B1[Cloud Practitioner]
+    end
+
+    subgraph A[AI builder]
+        direction TB
+        A2[SA Associate]
+        A3[ML Engineer]
+        A4[GenAI Developer Pro]
+    end
+
+    subgraph D[Data to AI]
+        direction TB
+        D1[Cloud Practitioner]
+        D2[Data Engineer]
+        D3[ML Engineer]
+        D4[GenAI Developer Pro]
+    end
+    
+    P --> B
+    P --> A
+    P --> D
+    D1 --> D2 --> D3 --> D4
+    A2 --> A3 --> A4
 ```
 
-*Figure 3: Recommended AI/ML Certification Path. Starting from AI Practitioner, professionals can pursue the ML Engineer Associate and Data Engineer Associate before advancing to the Generative AI Developer Professional certification.*
+*Figure 0.6.2: Three representative paths through the AWS certification portfolio. The business-and-AI-literacy track stops at AI Practitioner. The AI-builder and data-to-AI tracks both converge on Generative AI Developer - Professional but enter through different associate-level credentials.*
 
-This path represents increasing technical depth, moving from foundational AI literacy through hands-on ML engineering and data skills toward advanced generative AI solution development.
+A practitioner can stop after AI Practitioner if the goal is informed decision-making rather than hands-on engineering. A practitioner who plans to build AI agents in production typically benefits from at least the Solutions Architect - Associate and the Machine Learning Engineer - Associate before moving to the Generative AI Developer - Professional.
 
-To maintain certification validity, AWS requires recertification every three years, ensuring certified individuals stay current with the latest AWS technologies and best practices.
+To maintain certification validity, AWS requires recertification every three years. This keeps holders current with the latest services and best practices.
 
 ## The AWS Certified AI Practitioner Certification
 
 ### Overview and Positioning
 
-The AWS Certified AI Practitioner certification addresses the growing need for AI literacy across organizations. This certification occupies a strategic position in the AWS ecosystem, validating foundational knowledge of artificial intelligence, machine learning, and generative AI technologies with an emphasis on practical business applications.
+The AWS Certified AI Practitioner certification addresses the rapidly growing need for AI literacy across organizations. It validates foundational knowledge of artificial intelligence, machine learning, and generative AI on AWS, with an emphasis on practical business application rather than implementation detail.
 
-This certification validates foundational knowledge of AI/ML and generative AI technologies on AWS. Designed for business analysts, product managers, and non-technical professionals who work with AI solutions, it bridges the gap between technical implementation and business objectives. By validating your ability to evaluate AI solutions and communicate with technical teams, it enables organizations to effectively leverage AI capabilities and drive innovation.
+The certification is aimed at business analysts, product managers, IT support staff, and other professionals who work alongside AI but do not necessarily build it. By validating your ability to evaluate AI options and communicate with engineering teams, it helps organizations adopt AI capabilities in a more informed way and avoid expensive missteps.
 
 ### How It Differs from Other AI/ML Certifications
 
-The AWS Certified AI Practitioner sits at the Foundational level. Several other certifications cover AI and ML at greater technical depth. Understanding where AIF-C01 fits helps you plan your certification path after this exam.
+The AWS AI/ML certifications now form a clearly tiered set. They target different audiences and different skill levels.
 
-*Table 4: AI/ML Certification Comparison.*
+```mermaid
+flowchart LR
+    A[AWS AI/ML certifications] --> B[AI Practitioner<br/>Foundational]
+    A --> C[ML Engineer<br/>Associate]
+    A --> D[Data Engineer<br/>Associate]
+    A --> E[Generative AI Developer<br/>Professional]
+```
 
-| Certification | Level | Audience | Focus |
-|---|---|---|---|
-| AI Practitioner (AIF-C01) | Foundational | Business professionals | Concepts, use cases, AWS AI services |
-| ML Engineer Associate (MLA-C01) | Associate | ML engineers, data scientists | SageMaker, model training and deployment |
-| GenAI Developer Pro (AIP-C01) | Professional | GenAI developers | RAG, agentic AI, FM integration |
-| Data Engineer Associate (DEA-C01) | Associate | Data engineers | Pipelines, storage, data quality |
+*Figure 0.6.3: The AWS AI/ML certification map. Each certification targets a specific audience and depth of skill, from business literacy at the foundational level to production architecture at the Professional level.*
 
-The **Machine Learning Engineer - Associate (MLA-C01)** is the natural next step after AIF-C01 for professionals moving toward technical implementation. It validates hands-on ability to build, train, and deploy ML models using Amazon SageMaker. It targets data scientists, ML engineers, and developers who write code and build production ML systems.
+The **Generative AI Developer - Professional** certification (AIP-C01) validates expertise in designing, building, and operationalizing generative AI solutions on AWS at scale. It targets architects and senior engineers who own AI systems end to end.
 
-The **Generative AI Developer - Professional (AIP-C01)** is the advanced certification for professionals building production-grade generative AI applications. It covers RAG architectures, vector stores, agentic AI systems, FM integration patterns, and AI safety in depth. It requires substantial hands-on development experience.
+The **Machine Learning Engineer - Associate** (MLA-C01) validates the skills needed to build, deploy, and monitor ML models in production. It targets ML engineers and developers who own the ML side of an application.
 
-The **Data Engineer - Associate (DEA-C01)** focuses on the data infrastructure that supports AI/ML systems -- pipelines, storage, ETL, and data quality. It targets professionals who build and maintain the data foundations that ML models depend on.
+The **Data Engineer - Associate** (DEA-C01) focuses on the data infrastructure that AI/ML projects depend on. It targets engineers who build and maintain the pipelines and storage layers that feed AI workloads.
 
-The **AI Practitioner (AIF-C01)** is distinct from all three. It requires no implementation experience and focuses on understanding AI capabilities, evaluating solutions, and applying responsible AI practices. Business analysts, product managers, and technical professionals who work with AI teams without building models are the primary audience.
+In contrast, the **AI Practitioner** focuses on fundamentals and business application. It is designed for professionals who use AI/ML solutions, not the people who build them. Business analysts, product managers, and technically literate IT support staff are the primary audience.
+
+This four-way tiering reflects the maturing AI/ML market. Building, deploying, and governing AI now require enough specialized skill that AWS offers a separate certification for each layer.
 
 ## Exam Details and Structure
 
 ### Exam Overview
 
-The AWS Certified AI Practitioner (AIF-C01) exam features 65 questions to be completed in 90 minutes. Available in English, Japanese, Korean, Portuguese (Brazil), and Simplified Chinese, it requires a passing score of 700 out of 1000 points.
+The AWS Certified AI Practitioner (AIF-C01) exam contains 65 questions to be completed in 90 minutes. It is available in English, Japanese, Korean, Portuguese (Brazil), and Simplified Chinese. The minimum passing score is 700 on a 100 to 1,000 scale.
+
+The current exam version is **V1.1**, published April 30, 2026, and effective on the exam approximately one month later.[^006004] V1.1 added agentic AI, Amazon Bedrock AgentCore, Strands Agents, Kiro, and Amazon Quick to the in-scope material. It also removed Amazon MemoryDB. The objective changes are consequential enough that any preparation material older than mid-2026 should be cross-referenced against the current exam guide.
 
 ```mermaid
 flowchart LR
@@ -96,79 +131,79 @@ flowchart LR
     A --> C[Domain 2: Generative AI 24%]
     A --> D[Domain 3: Foundation Models 28%]
     A --> E[Domain 4: Responsible AI 14%]
-    A --> F[Domain 5: Security & Governance 14%]
+    A --> F[Domain 5: Security and Governance 14%]
 ```
-*Figure 5: AIF-C01 Exam Domain Weights. Foundation Models and Generative AI together account for more than half of the exam content.*
 
-Foundation Models and Generative AI comprise over half of the exam content, reflecting their growing importance in enterprise AI adoption. The exam assesses your ability to:
-- Demonstrate comprehensive understanding of AI/ML concepts and AWS services
+*Figure 0.6.4: AIF-C01 V1.1 domain weights. Domains 2 and 3 together cover generative AI and foundation-model applications and account for over half of the scored content.*
+
+Foundation models and generative AI together cover more than half the exam, which is consistent with how rapidly those topics have moved into the center of enterprise AI work. The exam assesses your ability to:
+
+- Demonstrate understanding of AI/ML and generative AI concepts and AWS services
 - Evaluate appropriate use cases for different AI technologies
 - Make informed decisions about implementing AI solutions
 - Apply responsible AI practices and governance principles
 
 ### Target Audience
 
-The ideal candidate has approximately 6 months of exposure to AI/ML technologies on AWS. While you should have experience using AI/ML solutions, you're not expected to build them yourself. A strong foundation in **core AWS services** is essential, including Amazon EC2, Amazon S3, AWS Lambda, and Amazon SageMaker.
+The ideal candidate has approximately six months of exposure to AI/ML technologies on AWS. You should be comfortable using AI/ML solutions, but you are not expected to build them yourself. A working familiarity with **core AWS services** is essential, including Amazon EC2, Amazon S3, AWS Lambda, Amazon Bedrock, and Amazon SageMaker AI.[^006005]
 
-Candidates should understand the **AWS shared responsibility model**, AWS Identity and Access Management (IAM) principles, AWS global infrastructure, and AWS service pricing models.
+You should also have a working understanding of the **AWS shared responsibility model**, AWS Identity and Access Management (IAM), and AWS service pricing models.
 
-Different professionals can benefit from this certification in unique ways:
+Different professionals can benefit from this certification in different ways:
 
-*Table 6: Roles Benefiting from AIF-C01 Certification.*
+*Table 0.6.1: Roles benefiting from AWS Certified AI Practitioner.*
 
-| Role Category | Key Personnel | Primary Benefits | Key Activities |
-|--------------|---------------|------------------|----------------|
-| Business Decision Makers | Project Managers, Business Analysts, Executives | Strategic planning and evaluation capabilities | Evaluating AI initiatives, assessing feasibility, developing adoption roadmaps |
-| Technology Professionals | IT Staff, Cloud Architects, Technical Consultants | Technical integration and support knowledge | Supporting AI systems, designing integrated solutions, platform evaluation |
-| Domain Specialists | Industry Experts, Research Professionals, QA Specialists | Domain-specific AI application insights | Guiding implementations, ensuring quality, exploring applications |
-| Support and Operations | Operations Teams, Customer Success Managers, Technical Writers | Operational excellence and support capability | Managing AI services, documenting systems, developing training programs |
+| Role category            | Key personnel                                                  | Primary benefits                               | Key activities                                                                 |
+| ------------------------ | -------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------ |
+| Business decision makers | Project managers, business analysts, executives                | Strategic planning and evaluation capabilities | Evaluating AI initiatives, assessing feasibility, developing adoption roadmaps |
+| Technology professionals | IT staff, cloud architects, technical consultants              | Technical integration and support knowledge    | Supporting AI systems, designing integrated solutions, platform evaluation     |
+| Domain specialists       | Industry experts, research professionals, QA specialists       | Domain-specific AI application insight         | Guiding implementations, ensuring quality, exploring applications              |
+| Support and operations   | Operations teams, customer-success managers, technical writers | Operational excellence and support capability  | Managing AI services, documenting systems, developing training programs        |
 
-This certification does not expect you to develop AI/ML models, implement data engineering techniques, perform hyperparameter tuning, build AI/ML pipelines, conduct mathematical analysis of models, or develop governance frameworks for AI/ML solutions.
+The certification does not require you to develop AI/ML models, implement data engineering, perform hyperparameter tuning, build AI/ML pipelines, conduct mathematical analysis of models, or develop full governance frameworks. Those are the responsibilities of the higher-level certifications.
 
 ### Exam Structure and Scoring
 
-The exam contains 50 scored questions plus 15 unscored questions that AWS uses to evaluate potential future content. The unscored questions are distributed throughout the exam and aren't identified. There's no penalty for guessing, and unanswered questions are marked incorrect.
+The exam contains 50 scored questions plus 15 unscored questions that AWS uses to evaluate potential future content. The unscored questions are distributed throughout the exam and are not identified. There is no penalty for guessing, and unanswered questions are scored as incorrect.
 
-The exam employs a sophisticated scoring model that:
-- Uses a scale of 100-1,000 points
-- Requires a minimum passing score of 700
-- Implements **compensatory scoring**, meaning you don't need to pass each section individually
-- Uses scaled scoring to ensure fairness across different exam versions
+The scoring model has four characteristics worth knowing:
 
-Your score report includes:
-- Overall pass/fail status
-- Scaled score
-- Performance feedback by exam section
-- General information about strengths and weaknesses
+- Scaled scoring on a 100 to 1,000 range
+- Minimum passing score of 700
+- Compensatory scoring, meaning you do not need to pass each section individually, only the overall exam
+- Scaled scoring across multiple exam forms to keep difficulty fair across versions
 
-The standard exam duration is 90 minutes. Non-native English speakers can request a 30-minute extension ("ESL +30" accommodation) when taking the exam in English, providing 120 minutes total exam time.
+Your score report includes overall pass or fail status, the scaled score, and section-level performance feedback that highlights strengths and weaknesses. The section-level feedback is general guidance, not a precise per-section grade.
+
+The standard exam duration is 90 minutes. Non-native English speakers can request a 30-minute extension, called the "ESL +30" accommodation, when taking the exam in English, for a total of 120 minutes.
 
 ## Exam Question Types
 
-The AWS Certified AI Practitioner exam includes several question formats to thoroughly assess your knowledge. Understanding these formats helps you prepare more effectively and approach the exam confidently.
+The exam uses four question formats. Knowing the formats in advance helps you allocate time and avoid surprises.
 
 ### Multiple Choice Questions
 
-Multiple choice questions present a scenario or concept with four possible answers - one correct answer and three incorrect options (distractors). The distractors test common misconceptions and validate your depth of understanding.
+Multiple-choice questions present a scenario or concept with four possible answers, one correct and three distractors. The distractors are designed to test common misconceptions and to validate that you understand the depth of the topic, not just the surface.
 
-For example:
+Example:
 
 ```
-Which AWS service provides a fully managed environment for building, training, and deploying machine learning models at scale?
+Which AWS service provides a fully managed environment for building, training, and
+deploying machine learning models at scale?
 
-A) Amazon EC2 - Provides virtual servers but requires manual ML setup
-B) Amazon S3 - Offers storage but not ML capabilities  
-C) Amazon SageMaker - Purpose-built managed service for ML workflows
+A) Amazon EC2     - Provides virtual servers but requires manual ML setup
+B) Amazon S3      - Offers storage but not ML capabilities
+C) Amazon SageMaker AI - Purpose-built managed service for ML workflows
 D) Amazon Redshift - Data warehouse service without native ML features
 
 Correct Answer: C
 ```
 
-The incorrect options represent related services that may support ML workflows but don't provide comprehensive ML capabilities.
+The incorrect options are services that touch ML workflows in some way but do not provide the full managed-ML experience.
 
-### Multiple Response Questions 
+### Multiple Response Questions
 
-Multiple response questions require selecting two or more correct answers from five or more options. You must identify ALL correct responses to receive credit - partial credit is not awarded.
+Multiple-response questions require selecting two or more correct answers from five or more options. You must identify all correct responses to receive credit. Partial credit is not awarded.
 
 ```
 Which TWO capabilities does Amazon SageMaker Studio provide? (Select TWO)
@@ -182,41 +217,39 @@ E) Relational database management
 Correct Answers: A, B
 ```
 
-When approaching multiple response questions:
-1. Read the question carefully to identify exactly how many answers are required
-2. Evaluate each option independently
-3. Double-check that you've selected the exact number of answers specified
-4. Verify that ALL your selections are correct, as partial credit isn't given
+When you see a multiple-response question:
+
+1. Read the question carefully and note exactly how many answers are required.
+2. Evaluate each option independently before comparing them.
+3. Verify that you have selected the exact number of answers specified.
+4. Confirm that all of your selections are correct, since partial credit is not given.
 
 ### Ordering Questions
 
-Ordering questions test your understanding of sequential processes in AWS AI and ML implementations. These questions present 3-5 items that must be arranged in the correct order to complete a specific task or process.
+Ordering questions test your understanding of sequential processes. They present three to five items that must be arranged in the correct order to complete a task.
 
 ```mermaid
-flowchart LR
-    A[Data Collection] --> B[Data Processing]
-    B --> C[Model Training] 
-    C --> D[Model Evaluation]
-    D --> E[Deployment]
+flowchart TD
+    A[1. Data Collection] --> B[2. Data Processing]
+    B --> C[3. Model Training]
+    C --> D[4. Model Evaluation]
+    D --> E[5. Deployment]
 ```
-*Figure 7: Typical ML Workflow Sequence. Ordering questions test whether you can arrange these steps correctly.*
 
-Each step builds upon previous ones in a logical sequence reflecting real-world AI/ML workflows. When answering ordering questions, consider:
+*Figure 0.6.5: A canonical ML workflow used as an ordering-question example. Each step depends on its predecessor, and the order reflects standard practice.*
+
+When you see an ordering question, look for:
+
 - Dependencies between steps
-- AWS service requirements and prerequisites  
-- Industry standard workflows
+- AWS service requirements and prerequisites
+- Industry-standard workflows
 - AWS best practices
 
 ### Matching Questions
 
-Matching questions evaluate your ability to correctly associate related concepts, services, or components within the AWS AI/ML ecosystem. These questions present two lists of items that need to be paired based on their relationships.
+Matching questions ask you to associate items in two lists. They typically present three to seven prompts and a corresponding list of descriptions, and require you to match each prompt with its correct description.
 
-A matching question typically contains:
-- A list of 3-7 prompts (usually AWS services, features, or concepts)
-- A corresponding list of descriptions or characteristics 
-- Instructions to match each prompt with its correct corresponding item
-
-Example matching question:
+A typical matching question:
 
 ```
 Match the AWS AI/ML service with its primary capability:
@@ -231,105 +264,82 @@ Descriptions:
 A. No-code ML model building and inference
 B. Natural language processing and text analysis
 C. Foundation model access and deployment
-D. Computer vision and image/video analysis
+D. Computer vision and image and video analysis
 
 Correct matches: 1-C, 2-A, 3-B, 4-D
 ```
 
 When approaching matching questions:
-1. Read all items in both lists carefully before making any matches
-2. Look for obvious matches first to narrow down remaining options
-3. Use process of elimination for challenging pairs
-4. Verify that each match aligns with your AWS knowledge
 
-### Case Study Questions
-
-Case study questions evaluate your ability to analyze real-world scenarios and apply AWS AI/ML knowledge to solve business problems. Each case study presents a scenario followed by multiple related questions that are scored independently.
-
-Case study questions test your ability to:
-- Analyze business requirements and constraints
-- Select appropriate AWS AI services and features
-- Apply AI/ML best practices and architectural patterns
-- Consider factors like cost, performance, security and compliance
-
-Example case study format:
-
-```
-Scenario: 
-A global retail company wants to enhance their customer experience by implementing 
-AI-powered product recommendations across their mobile app and website. They have:
-- 50 million active customers
-- Product catalog of 1 million items
-- Customer purchase history going back 3 years
-- Real-time clickstream data
-- Requirement to update recommendations hourly
-
-Question 1: 
-Which combination of AWS services would you recommend to build this recommendation system?
-
-Question 2:
-What technical considerations are most important for the success of this implementation?
-```
-
-When approaching case studies:
-1. Carefully read and analyze the full scenario
-2. Note key requirements and constraints
-3. Consider relevant AWS services and features
-4. Evaluate tradeoffs between different approaches
-5. Select solutions that best meet the stated needs
+1. Read all items in both lists carefully before making any matches.
+2. Lock in the obvious matches first, then narrow the rest by elimination.
+3. Use process of elimination for the remaining harder pairs.
+4. Verify each match against your AWS knowledge.
 
 ## Exam Preparation Tips
 
 ### Time Management
 
-Effective time management is crucial for exam success:
+Effective time management matters more than raw knowledge for many candidates. A few practical guidelines:
 
-1. Review the number of questions and time allowed
-2. Allocate time proportionally to question types
-3. Don't spend too long on any single question
-4. Flag difficult questions to revisit if time permits
-5. Leave time to review marked questions
+1. Note the question count and time allowed at the start.
+2. Aim for roughly 80 seconds per question on the first pass.
+3. Do not spend more than two minutes on any single question.
+4. Flag difficult questions and revisit them after the first pass.
+5. Leave at least five to ten minutes at the end for review.
+
+If English is not your first language, AWS lets you request 30 minutes of extra exam time as an accommodation. The request must be submitted through your AWS Certification account before you book the exam, and once approved it applies to every AWS exam you schedule from that account.
 
 ### Focus Areas
 
-The exam emphasizes practical application over memorization. Key areas include:
+The exam emphasizes practical application over memorization. Key areas:
 
-- Understanding core AI/ML concepts and terminology
-- Identifying appropriate use cases for different AI technologies
-- Knowing AWS AI services capabilities and limitations
-- Comprehending **responsible AI principles**
-- Recognizing security and compliance requirements
+- Core AI/ML concepts and terminology, including agentic AI, RAG, and MCP
+- The right AI service for the right business problem
+- AWS service capabilities and limitations, especially Amazon Bedrock and the AgentCore family
+- Responsible AI principles including bias, fairness, transparency, and explainability
+- Security, including Amazon Bedrock Guardrails and AWS shared responsibility for AI
 
-Remember that questions test your ability to apply knowledge in realistic scenarios rather than simply recalling facts.
+The questions test your ability to apply knowledge in realistic scenarios, not your ability to recite a definition.
 
 ### Preparation Resources
 
-AWS offers comprehensive resources through AWS Skill Builder, a dedicated learning portal that provides both free and subscription-based training options to help professionals prepare for their certifications.
+AWS offers a range of preparation resources through AWS Skill Builder, including free and subscription-based content.[^006006]
 
-*Table 8: Key Preparation Resources for AIF-C01.*
+*Table 0.6.2: Key preparation resources for AWS certifications.*
 
-| Resource Type | Description | Best For |
-|--------------|-------------|-----------|
-| Digital Training | Self-paced online courses | Understanding core concepts |
-| Classroom Training | Instructor-led sessions | Interactive learning and direct guidance |
-| Practice Exams | Sample questions and scenarios | Exam preparation and gap analysis |
-| Documentation | Technical guides and whitepapers | Deep technical knowledge building |
-| Hands-on Labs | Practical AWS console exercises | Real-world experience and skill validation |
+| Resource type      | Description                      | Best for                                   |
+| ------------------ | -------------------------------- | ------------------------------------------ |
+| Digital training   | Self-paced online courses        | Understanding core concepts                |
+| Classroom training | Instructor-led sessions          | Interactive learning and direct guidance   |
+| Practice exams     | Sample questions and scenarios   | Exam preparation and gap analysis          |
+| Documentation      | Technical guides and whitepapers | Deep technical knowledge building          |
+| Hands-on labs      | Practical AWS console exercises  | Real-world experience and skill validation |
 
-For the AWS Certified AI Practitioner certification specifically, preparation should focus on core knowledge areas such as AI/ML fundamental concepts, key terminology and frameworks, and industry best practices. Additionally, candidates should familiarize themselves with AWS AI services, including Amazon SageMaker and Amazon Bedrock, as well as governance and best practices related to responsible AI, security requirements, and compliance standards.
+For AIF-C01 specifically, focus on AI/ML fundamentals, the GenAI and FM domains, and the new agentic-AI material added in V1.1. Hands-on time with **Amazon Bedrock**, the model playground, and **Amazon Bedrock AgentCore** is the single best return on study time once the fundamentals are in place.
 
 ## Conclusion
 
-The AWS Certified AI Practitioner certification validates essential knowledge of modern AI technologies, generative AI capabilities, and responsible AI practices on AWS. Designed for business analysts, product managers, and professionals who work with AI solutions but don't build them, this certification demonstrates your ability to:
+The AWS Certified AI Practitioner certification validates essential knowledge of modern AI on AWS: classical ML, generative AI, agentic AI, and the responsible-AI practices that increasingly accompany them. Designed for business analysts, product managers, and other professionals who use AI rather than build it, the certification demonstrates your ability to:
 
 - Make informed decisions about AI technology adoption
-- Effectively communicate with technical teams about AI initiatives
-- Identify appropriate use cases for different AI solutions
+- Communicate with technical teams about AI initiatives
+- Identify the right use cases for the right AI services
 - Apply responsible AI practices in your organization
 - Navigate the rapidly evolving AI landscape on AWS
 
-By earning this certification, you establish a foundation for understanding AI while focusing on business value rather than technical implementation. This makes it particularly valuable as organizations increasingly leverage AI capabilities through services like Amazon Bedrock, Amazon SageMaker, and other AWS AI tools.
+By earning this certification you establish a foundation for understanding AI while focusing on business value rather than technical implementation. That makes it a useful credential as more organizations move from AI experimentation to AI production through services like Amazon Bedrock, Amazon Bedrock AgentCore, Amazon SageMaker AI, and Kiro.
 
-AWS certifications serve as a vital pathway for validating cloud expertise and accelerating career growth in an AI-driven technology landscape. The AWS Certified AI Practitioner certification bridges technical and business domains during this transformative period of AI adoption.
+AWS certifications remain a path for validating cloud expertise and accelerating career growth as AI moves into mainstream business operations. The AWS Certified AI Practitioner certification bridges technical and business roles during a period of rapid AI adoption, and the V1.1 update brings the exam content up to date with where the market actually is in 2026.
 
-As you work through this study guide, remember that the knowledge gained extends beyond exam preparation. These concepts provide essential context for evaluating AI/ML solutions, having informed discussions about AI capabilities and limitations, making responsible decisions about AI implementation, and effectively leveraging AWS's growing portfolio of AI services.
+[^006001]: AWS Certifications. URL: [https://aws.amazon.com/certification/](https://aws.amazon.com/certification/)
+    
+[^006002]: AWS Certified AI Practitioner. URL: [https://aws.amazon.com/certification/certified-ai-practitioner/](https://aws.amazon.com/certification/certified-ai-practitioner/)
+    
+[^006003]: AWS Certified Machine Learning Engineer Associate. URL: [https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/](https://aws.amazon.com/certification/certified-machine-learning-engineer-associate/)
+    
+[^006004]: AIF-C01 Exam Guide Revisions. URL: [https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html](https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/aif-01-revisions.html)
+    
+[^006005]: AIF-C01 Target Candidate Description. URL: [https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.html](https://docs.aws.amazon.com/aws-certification/latest/ai-practitioner-01/ai-practitioner-01.html)
+    
+[^006006]: AWS Skill Builder. URL: [https://skillbuilder.aws/](https://skillbuilder.aws/)

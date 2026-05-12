@@ -9,7 +9,8 @@ Prior to AWS, Vladimir held senior technical positions at Microsoft, where he le
 Vladimir's has a Master's degree in Electronics and Computer Engineering, complemented by an array of industry certifications:
 
 - AWS Certified AI Practitioner
-- AWS Certified Solutions Architect – Professional
+- AWS Certified Solutions Architect - Professional
+- Anthropic Claude Certified Architect
 - Deeplearning.AI Generative AI with Large Language Models certification
 - Google Certified Professional Cloud Architect
 - 25+ Microsoft exams and certifications

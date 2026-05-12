@@ -6,6 +6,6 @@ My sincere appreciation goes to the technical reviewers who meticulously examine
 
 Special thanks to Nadezhda Leonova for creating the visually striking cover design that elegantly captures the convergence of artificial intelligence and cloud computing, providing a fitting visual introduction to the material within.
 
-I am deeply grateful to the broader AWS community—including solutions architects, trainers, and practitioners—whose practical experiences and insights have enriched this resource immeasurably. Their willingness to share knowledge about AWS certification journeys has significantly enhanced the practical value of this guide.
+I am deeply grateful to the broader AWS community, including solutions architects, trainers, and practitioners, whose practical experiences and insights have enriched this resource immeasurably. Their willingness to share knowledge about AWS certification journeys has significantly enhanced the practical value of this guide.
 
 This book represents true collaborative achievement, reflecting the dedication of professionals committed to advancing AI adoption and helping others succeed in their cloud transformation initiatives. Their contributions have transformed this guide into an essential resource for business professionals looking to harness AI technologies across their organizations.
