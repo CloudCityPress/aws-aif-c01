@@ -2,7 +2,7 @@
 
 ## Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 
-**Copyright © 2025 Cloud City Press LLC. All rights reserved.**
+**Copyright © 2025-2026 Cloud City Press LLC. All rights reserved.**
 
 This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
@@ -28,7 +28,7 @@ This work is licensed under the Creative Commons Attribution-NonCommercial-NoDer
 
 ## 🌍 Official Translations Available
 
-This English version is provided free for personal use. 
+This English version is provided free for personal use. An official Spanish translation by the author is also available in this repository under the same license terms (see [`spanish/`](spanish/)).
 
 ---
 
@@ -91,5 +91,5 @@ If this free content has helped you in your career:
 
 This content is provided "as is" without warranty of any kind. Cloud City Press LLC shall not be liable for any damages arising from the use of this content. Always refer to official documentation and current best practices when implementing solutions in production environments.
 
-**Last updated:** June 2025  
+**Last updated:** May 2026  
 **License version:** CC BY-NC-ND 4.0 International

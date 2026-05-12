@@ -1,31 +1,33 @@
 # AWS Certified AI Practitioner for Business Professionals
-## AN INDEPENDENT STUDY GUIDE FOR AWS EXAM AIF-C01
+## AN INDEPENDENT STUDY GUIDE FOR AWS EXAM AIF-C01 (V1.1)
 ## Third Edition
 
-Copyright © 2025 Cloud City Press LLC  
+Copyright © 2026 Cloud City Press LLC
 All rights reserved.
 
 No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, or otherwise, without the prior written permission of the publisher.
 
 ## Publication Information
 
-Published by:  
-Cloud City Press LLC  
-Bothell, Washington  
+Published by:
+Cloud City Press LLC
+Bothell, Washington
 www.cloudcitypress.com
 
-**Author:** Vladimir Provorov  
+**Author:** Vladimir Provorov
 **Cover Design:** Nadezhda Leonova
 
 ISBN: 979-8339774037
 
 ## Open Source Notice
 
-This book is available on GitHub for non-commercial use at (https://github.com/CloudCityPress/aws-aif-c01). The content is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) for non-commercial purposes only. Commercial use, including but not limited to reproduction, distribution, or transmission for profit, requires prior written permission from Cloud City Press LLC.
+This book is available on GitHub for non-commercial use at <https://github.com/CloudCityPress/aws-aif-c01>. The content is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) for non-commercial purposes only. Commercial use, including but not limited to reproduction, distribution, or transmission for profit, requires prior written permission from Cloud City Press LLC.
 
 ## Disclaimer
 
 This book is an independent publication. All product names, logos, brands, and trademarks mentioned in this publication are the property of their respective owners. The use of these names, logos, brands, and trademarks does not imply endorsement.
+
+The third edition has been rebuilt from scratch to align with the AIF-C01 exam guide version 1.1, published by AWS on April 30, 2026. Chapter structure follows the official exam content outline: every content chapter maps to a specific task statement, and every section maps to a specific objective.
 
 ## Notice of Liability
 
