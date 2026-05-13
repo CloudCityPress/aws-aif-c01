@@ -6,7 +6,7 @@ Terza Edizione — Maggio 2026
 
 di Vladimir Provorov
 
-Questa è l'**edizione italiana** della guida di studio gratuita, tradotta dall'autore. Altre lingue: [English](../english/) · [Español](../spanish/) · [Français](../french/) · [Deutsch](../german/) · [日本語](../japanese/) · [Português](../portuguese/) · [Русский](../russian/). Consulta il [README principale](../README.md) per una panoramica del progetto.
+Questa è l'**edizione italiana** della guida di studio gratuita. La traduzione è stata realizzata con Claude Opus 4.7 a partire dal testo originale in inglese e revisionata dall'autore per garantire accuratezza tecnica e coerenza terminologica. Altre lingue: [English](../english/) · [Español](../spanish/) · [Français](../french/) · [Deutsch](../german/) · [日本語](../japanese/) · [Português](../portuguese/) · [Русский](../russian/). Consulta il [README principale](../README.md) per una panoramica del progetto.
 
 ## Su questa edizione
 

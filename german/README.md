@@ -6,7 +6,7 @@ Dritte Auflage — Mai 2026
 
 von Vladimir Provorov
 
-Dies ist die **deutsche Ausgabe** des kostenlosen Studienführers, vom Autor selbst übersetzt. Andere Sprachen: [English](../english/) · [Español](../spanish/) · [Français](../french/) · [Italiano](../italian/) · [日本語](../japanese/) · [Português](../portuguese/) · [Русский](../russian/). Die [Haupt-README](../README.md) bietet einen Überblick über das gesamte Projekt.
+Dies ist die **deutsche Ausgabe** des kostenlosen Studienführers. Die Übersetzung wurde mit Claude Opus 4.7 aus dem englischen Originaltext erstellt und vom Autor auf fachliche Richtigkeit und terminologische Konsistenz geprüft. Andere Sprachen: [English](../english/) · [Español](../spanish/) · [Français](../french/) · [Italiano](../italian/) · [日本語](../japanese/) · [Português](../portuguese/) · [Русский](../russian/). Die [Haupt-README](../README.md) bietet einen Überblick über das gesamte Projekt.
 
 ## Über diese Ausgabe
 
