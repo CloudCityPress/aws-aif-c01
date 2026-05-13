@@ -6,7 +6,7 @@ Terceira Edição — Maio de 2026
 
 por Vladimir Provorov
 
-Esta é a **edição em português (pt-BR)** do guia de estudo gratuito. A tradução foi produzida com o Claude Opus 4.7 a partir do texto original em inglês e revisada pelo autor para garantir precisão técnica e consistência terminológica. Outros idiomas: [English](../english/) · [Español](../spanish/) · [Français](../french/) · [Deutsch](../german/) · [Italiano](../italian/) · [日本語](../japanese/) · [Русский](../russian/). Consulte o [README principal](../README.md) para uma visão geral do projeto.
+Esta é a **edição em português (pt-BR)** do guia de estudo gratuito. Foi produzida a partir do texto original em inglês por meio de um processo de várias etapas de tradução e edição conduzido por agentes de IA (Claude Opus 4.7). Outros idiomas: [English](../english/) · [Español](../spanish/) · [Français](../french/) · [Deutsch](../german/) · [Italiano](../italian/) · [日本語](../japanese/) · [Русский](../russian/). Consulte o [README principal](../README.md) para uma visão geral do projeto.
 
 ## Sobre esta edição
 

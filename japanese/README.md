@@ -6,7 +6,7 @@
 
 著者：Vladimir Provorov
 
-これは無料学習ガイドの**日本語版**です。翻訳は英語原文をもとに Claude Opus 4.7 を用いて行い、技術的正確性と用語の一貫性を著者が確認しました。他の言語：[English](../english/) · [Español](../spanish/) · [Français](../french/) · [Deutsch](../german/) · [Italiano](../italian/) · [Português](../portuguese/) · [Русский](../russian/)。プロジェクト全体の概要については[ルート README](../README.md) をご覧ください。
+これは無料学習ガイドの**日本語版**です。AI エージェント（Claude Opus 4.7）による多段階の翻訳・編集プロセスを経て、英語原文から作成されました。他の言語：[English](../english/) · [Español](../spanish/) · [Français](../french/) · [Deutsch](../german/) · [Italiano](../italian/) · [Português](../portuguese/) · [Русский](../russian/)。プロジェクト全体の概要については[ルート README](../README.md) をご覧ください。
 
 ## 本版について
 

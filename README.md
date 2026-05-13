@@ -21,7 +21,7 @@ Each language ships as a standalone folder with its own README and full chapter 
 | Português (pt-BR) | [portuguese/](portuguese/) | [README](portuguese/README.md) |
 | Русский | [russian/](russian/) | [README](russian/README.md) |
 
-Translations were produced with Claude Opus 4.7 from the English source and reviewed by the author for technical accuracy and terminology consistency.
+Translations were produced from the English source through a multi-step translate-and-edit pipeline driven by AI agents (Claude Opus 4.7).
 
 ## About this book
 
