@@ -1,0 +1,11 @@
+# Remerciements
+
+L'intelligence artificielle progresse grâce à la collaboration, les innovations émergeant de l'expertise collective de professionnels de la technologie à l'échelle mondiale. Ce guide de certification AWS en IA incarne cet esprit de collaboration en réunissant des perspectives variées pour créer une ressource solide à l'intention des praticiens de l'IA à tous les stades de leur parcours.
+
+Ma sincère gratitude va aux relecteurs techniques qui ont examiné ce contenu avec rigueur pour en vérifier l'exactitude et la clarté : Mikhail Malyshev, Sergey Belevskiy (Wildberries), Eugene Sergeev (Microsoft), Ivan Khvostishkov (AWS), Alex Kats, Sergey Simakov (Google), Maxim Kim (Microsoft), Alexander Matyushenko (Visa), Marc Luescher (AWS), Sandra Wang (Zscaler), Mateo Martinez (AWS), Jakob Maxbauer (Airbus), Bitan Jyoti Ghosh (Accenture), Charles Lelu (AWS), Peter Lopes Pereira (AWS), Dennis Rothmel (AWS), Won Huh (AWS) et de nombreux autres. Leur expertise des systèmes IA/ML et des services cloud a permis de garantir que ce guide répond aux exigences élevées de la préparation à la certification.
+
+Mes remerciements particuliers vont à Nadezhda Leonova pour la conception de la couverture, qui capture avec élégance la convergence entre l'intelligence artificielle et l'informatique en nuage, offrant ainsi une introduction visuelle parfaite au contenu de cet ouvrage.
+
+Je suis profondément reconnaissant envers la communauté AWS dans son ensemble, notamment les architectes de solutions, les formateurs et les praticiens, dont les expériences concrètes et les retours ont considérablement enrichi cette ressource. Leur volonté de partager leurs connaissances sur le parcours de certification AWS a largement contribué à renforcer la valeur pratique de ce guide.
+
+Ce livre représente une réalisation véritablement collaborative, témoignant de l'engagement de professionnels déterminés à favoriser l'adoption de l'IA et à aider les autres à réussir dans leurs initiatives de transformation vers le cloud. Leurs contributions ont fait de ce guide une ressource indispensable pour les professionnels des affaires qui souhaitent exploiter les technologies d'IA au sein de leurs organisations.
