@@ -6,7 +6,7 @@
 
 автор: Vladimir Provorov
 
-Это **русское издание** бесплатного учебного руководства, переведённое самим автором. Другие языки: [English](../english/) · [Español](../spanish/) · [Français](../french/) · [Deutsch](../german/) · [Italiano](../italian/) · [日本語](../japanese/) · [Português](../portuguese/). Обзор всего проекта смотрите в [главном README](../README.md).
+Это **русское издание** бесплатного учебного руководства. Подготовлено на основе оригинального английского текста в ходе многошагового процесса перевода и редактирования с помощью ИИ-агентов (Claude Opus 4.7). Другие языки: [English](../english/) · [Español](../spanish/) · [Français](../french/) · [Deutsch](../german/) · [Italiano](../italian/) · [日本語](../japanese/) · [Português](../portuguese/). Обзор всего проекта смотрите в [главном README](../README.md).
 
 ## Об этом издании
 

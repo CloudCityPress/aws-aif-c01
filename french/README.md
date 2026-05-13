@@ -6,7 +6,7 @@ Troisième édition — Mai 2026
 
 par Vladimir Provorov
 
-Voici l'**édition française** du guide d'étude gratuit, traduite par l'auteur. Autres langues : [English](../english/) · [Español](../spanish/) · [Deutsch](../german/) · [Italiano](../italian/) · [日本語](../japanese/) · [Português](../portuguese/) · [Русский](../russian/). Consultez le [README principal](../README.md) pour une vue d'ensemble du projet.
+Voici l'**édition française** du guide d'étude gratuit. Elle a été produite à partir du texte original en anglais via un processus en plusieurs étapes de traduction et de relecture piloté par des agents IA (Claude Opus 4.7). Autres langues : [English](../english/) · [Español](../spanish/) · [Deutsch](../german/) · [Italiano](../italian/) · [日本語](../japanese/) · [Português](../portuguese/) · [Русский](../russian/). Consultez le [README principal](../README.md) pour une vue d'ensemble du projet.
 
 ## À propos de cette édition
 
