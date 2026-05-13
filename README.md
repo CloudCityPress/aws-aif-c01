@@ -10,16 +10,16 @@ by Vladimir Provorov
 
 Each language ships as a standalone folder with its own README and full chapter set.
 
-| Language | Folder | README |
-|---|---|---|
-| English | [english/](english/) | [README](english/README.md) |
-| Español | [spanish/](spanish/) | [README](spanish/README.md) |
-| Français | [french/](french/) | [README](french/README.md) |
-| Deutsch | [german/](german/) | [README](german/README.md) |
-| Italiano | [italian/](italian/) | [README](italian/README.md) |
-| 日本語 | [japanese/](japanese/) | [README](japanese/README.md) |
-| Português (pt-BR) | [portuguese/](portuguese/) | [README](portuguese/README.md) |
-| Русский | [russian/](russian/) | [README](russian/README.md) |
+| Language | Folder | README | Kindle | Paperback |
+|---|---|---|---|---|
+| English | [english/](english/) | [README](english/README.md) | [Kindle](https://www.amazon.com/dp/B0DJ1JN1CQ/) | [Paperback](https://www.amazon.com/dp/B0GZQ2WSKS/) |
+| Español | [spanish/](spanish/) | [README](spanish/README.md) | [Kindle](https://www.amazon.com/dp/B0F6QP494G/) | [Paperback](https://www.amazon.com/dp/B0H1MXMZGP/) |
+| Français | [french/](french/) | [README](french/README.md) | — | — |
+| Deutsch | [german/](german/) | [README](german/README.md) | — | — |
+| Italiano | [italian/](italian/) | [README](italian/README.md) | — | — |
+| 日本語 | [japanese/](japanese/) | [README](japanese/README.md) | — | — |
+| Português (pt-BR) | [portuguese/](portuguese/) | [README](portuguese/README.md) | — | — |
+| Русский | [russian/](russian/) | [README](russian/README.md) | — | — |
 
 Translations were produced from the English source through a multi-step translate-and-edit pipeline driven by AI agents (Claude Opus 4.7).
 
@@ -52,13 +52,9 @@ Every chapter is structured around the V1.1 exam guide's five domains and fourte
 
 ## How to support
 
-If this free content helps you on your AWS certification path, please consider buying one of the published editions on Amazon and leaving a review:
+If this free content helps you on your AWS certification path:
 
-- **English** — [Kindle](https://www.amazon.com/dp/B0DJ1JN1CQ/) · [Paperback](https://www.amazon.com/dp/B0GZQ2WSKS/)
-- **Español** — [Kindle](https://www.amazon.com/dp/B0F6QP494G/) · [Paperback](https://www.amazon.com/dp/B0H1MXMZGP/)
-
-Other ways to support:
-
+- **Buy a published edition** on Amazon (see Kindle and Paperback links in the [Editions](#editions) table) and leave a review
 - **Star this repository** so others can find it
 - **Share with colleagues** preparing for AWS certifications
 - **Report errors or suggest improvements** via [GitHub Issues](https://github.com/CloudCityPress/aws-aif-c01/issues)
